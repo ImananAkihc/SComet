@@ -1,0 +1,10 @@
+power:cpu_idle
+power:cpu_idle_miss
+sched:sched_wake_idle_without_ipi
+r8ef
+r480
+r15e
+r1d2
+r2d2
+r40004a3
+r18002b1
