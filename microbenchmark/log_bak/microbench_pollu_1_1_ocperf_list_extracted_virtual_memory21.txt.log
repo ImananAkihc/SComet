@@ -1,0 +1,88 @@
+# started on Wed Jan 31 15:39:46 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      writeback:balance_dirty_pages                                   
+                 0      writeback:bdi_dirty_ratelimit                                   
+                 0      writeback:flush_foreign                                     
+                 4      writeback:folio_wait_writeback                                   
+                 8      writeback:global_dirty_state                                   
+                 0      writeback:inode_foreign_history                                   
+                 0      writeback:inode_switch_wbs                                   
+                11      writeback:sb_clear_inode_writeback                                   
+                11      writeback:sb_mark_inode_writeback                                   
+                 6      writeback:track_foreign_dirty                                   
+                15      writeback:wbc_writepage                                     
+                 0      writeback:writeback_bdi_register                                   
+                 6      writeback:writeback_dirty_folio                                   
+               117      writeback:writeback_dirty_inode                                   
+                 6      writeback:writeback_dirty_inode_enqueue                                   
+               117      writeback:writeback_dirty_inode_start                                   
+                 0      writeback:writeback_exec                                    
+                 0      writeback:writeback_lazytime                                   
+                 0      writeback:writeback_lazytime_iput                                   
+               123      writeback:writeback_mark_inode_dirty                                   
+                 4      writeback:writeback_pages_written                                   
+                 0      writeback:writeback_queue                                   
+                 6      writeback:writeback_queue_io                                   
+                 0      writeback:writeback_sb_inodes_requeue                                   
+                13      writeback:writeback_single_inode                                   
+                13      writeback:writeback_single_inode_start                                   
+                 6      writeback:writeback_start                                   
+                 0      writeback:writeback_wait                                    
+                 0      writeback:writeback_wake_background                                   
+                 0      writeback:writeback_write_inode                                   
+                 0      writeback:writeback_write_inode_start                                   
+                 6      writeback:writeback_written                                   
+                 0      x86_fpu:x86_fpu_after_restore                                   
+                 0      x86_fpu:x86_fpu_after_save                                   
+                 0      x86_fpu:x86_fpu_before_restore                                   
+                 0      x86_fpu:x86_fpu_before_save                                   
+               103      x86_fpu:x86_fpu_copy_dst                                    
+               103      x86_fpu:x86_fpu_copy_src                                    
+               131      x86_fpu:x86_fpu_dropped                                     
+                 0      x86_fpu:x86_fpu_init_state                                   
+             1,099      x86_fpu:x86_fpu_regs_activated                                   
+             3,224      x86_fpu:x86_fpu_regs_deactivated                                   
+                 0      x86_fpu:x86_fpu_xstate_check_failed                                   
+                 0      xdp:mem_connect                                             
+                 0      xdp:mem_disconnect                                          
+                 0      xdp:mem_return_failed                                       
+                 0      xdp:xdp_bulk_tx                                             
+                 0      xdp:xdp_cpumap_enqueue                                      
+                 0      xdp:xdp_cpumap_kthread                                      
+                 0      xdp:xdp_devmap_xmit                                         
+                 0      xdp:xdp_exception                                           
+                 0      xdp:xdp_redirect                                            
+                 0      xdp:xdp_redirect_err                                        
+                 0      xdp:xdp_redirect_map                                        
+                 0      xdp:xdp_redirect_map_err                                    
+                 0      xen:xen_cpu_load_idt                                        
+                 0      xen:xen_cpu_set_ldt                                         
+                 0      xen:xen_cpu_write_gdt_entry                                   
+                 0      xen:xen_cpu_write_idt_entry                                   
+                 0      xen:xen_cpu_write_ldt_entry                                   
+                 0      xen:xen_mc_batch                                            
+                 0      xen:xen_mc_callback                                         
+                 0      xen:xen_mc_entry                                            
+                 0      xen:xen_mc_entry_alloc                                      
+                 0      xen:xen_mc_extend_args                                      
+                 0      xen:xen_mc_flush                                            
+                 0      xen:xen_mc_flush_reason                                     
+                 0      xen:xen_mc_issue                                            
+                 0      xen:xen_mmu_alloc_ptpage                                    
+                 0      xen:xen_mmu_flush_tlb_multi                                   
+                 0      xen:xen_mmu_flush_tlb_one_user                                   
+                 0      xen:xen_mmu_pgd_pin                                         
+                 0      xen:xen_mmu_pgd_unpin                                       
+                 0      xen:xen_mmu_ptep_modify_prot_commit                                   
+                 0      xen:xen_mmu_ptep_modify_prot_start                                   
+                 0      xen:xen_mmu_release_ptpage                                   
+                 0      xen:xen_mmu_set_p4d                                         
+                 0      xen:xen_mmu_set_pmd                                         
+                 0      xen:xen_mmu_set_pte                                         
+                 0      xen:xen_mmu_set_pud                                         
+
+      69.587478049 seconds time elapsed
+

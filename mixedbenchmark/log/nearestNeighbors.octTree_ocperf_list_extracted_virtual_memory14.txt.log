@@ -1,0 +1,88 @@
+# started on Sun Jan 21 00:40:51 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 7      syscalls:sys_enter_pipe                                     
+                16      syscalls:sys_enter_pipe2                                    
+                 0      syscalls:sys_enter_pivot_root                                   
+                 0      syscalls:sys_enter_pkey_alloc                                   
+                 0      syscalls:sys_enter_pkey_free                                   
+                 0      syscalls:sys_enter_pkey_mprotect                                   
+                27      syscalls:sys_enter_poll                                     
+               309      syscalls:sys_enter_ppoll                                    
+                52      syscalls:sys_enter_prctl                                    
+                41      syscalls:sys_enter_pread64                                   
+                 0      syscalls:sys_enter_preadv                                   
+                 0      syscalls:sys_enter_preadv2                                   
+                 0      syscalls:sys_enter_prlimit64                                   
+                 0      syscalls:sys_enter_process_madvise                                   
+                 0      syscalls:sys_enter_process_mrelease                                   
+                 0      syscalls:sys_enter_process_vm_readv                                   
+                 0      syscalls:sys_enter_process_vm_writev                                   
+                 0      syscalls:sys_enter_pselect6                                   
+                 0      syscalls:sys_enter_ptrace                                   
+                 2      syscalls:sys_enter_pwrite64                                   
+                 0      syscalls:sys_enter_pwritev                                   
+                 0      syscalls:sys_enter_pwritev2                                   
+                 0      syscalls:sys_enter_quotactl                                   
+                 0      syscalls:sys_enter_quotactl_fd                                   
+             1,634      syscalls:sys_enter_read                                     
+                 0      syscalls:sys_enter_readahead                                   
+                30      syscalls:sys_enter_readlink                                   
+                20      syscalls:sys_enter_readlinkat                                   
+                 0      syscalls:sys_enter_readv                                    
+                 0      syscalls:sys_enter_reboot                                   
+                 1      syscalls:sys_enter_recvfrom                                   
+                 0      syscalls:sys_enter_recvmmsg                                   
+                50      syscalls:sys_enter_recvmsg                                   
+                 0      syscalls:sys_enter_remap_file_pages                                   
+                 0      syscalls:sys_enter_removexattr                                   
+                 0      syscalls:sys_enter_rename                                   
+                 5      syscalls:sys_enter_renameat                                   
+                 0      syscalls:sys_enter_renameat2                                   
+                 0      syscalls:sys_enter_request_key                                   
+                 0      syscalls:sys_enter_restart_syscall                                   
+                 0      syscalls:sys_enter_rmdir                                    
+                 0      syscalls:sys_enter_rseq                                     
+             1,187      syscalls:sys_enter_rt_sigaction                                   
+                 0      syscalls:sys_enter_rt_sigpending                                   
+               320      syscalls:sys_enter_rt_sigprocmask                                   
+                 0      syscalls:sys_enter_rt_sigqueueinfo                                   
+                51      syscalls:sys_enter_rt_sigreturn                                   
+                 0      syscalls:sys_enter_rt_sigsuspend                                   
+                 0      syscalls:sys_enter_rt_sigtimedwait                                   
+                 0      syscalls:sys_enter_rt_tgsigqueueinfo                                   
+                 0      syscalls:sys_enter_sched_get_priority_max                                   
+                 0      syscalls:sys_enter_sched_get_priority_min                                   
+                 5      syscalls:sys_enter_sched_getaffinity                                   
+                 0      syscalls:sys_enter_sched_getattr                                   
+                 0      syscalls:sys_enter_sched_getparam                                   
+                 0      syscalls:sys_enter_sched_getscheduler                                   
+                 0      syscalls:sys_enter_sched_rr_get_interval                                   
+                 0      syscalls:sys_enter_sched_setaffinity                                   
+                 0      syscalls:sys_enter_sched_setattr                                   
+                 0      syscalls:sys_enter_sched_setparam                                   
+                 0      syscalls:sys_enter_sched_setscheduler                                   
+                10      syscalls:sys_enter_sched_yield                                   
+                 0      syscalls:sys_enter_seccomp                                   
+                49      syscalls:sys_enter_select                                   
+                 0      syscalls:sys_enter_semctl                                   
+                 0      syscalls:sys_enter_semget                                   
+                 0      syscalls:sys_enter_semop                                    
+                 0      syscalls:sys_enter_semtimedop                                   
+                 0      syscalls:sys_enter_sendfile64                                   
+                 0      syscalls:sys_enter_sendmmsg                                   
+                12      syscalls:sys_enter_sendmsg                                   
+                 4      syscalls:sys_enter_sendto                                   
+                 0      syscalls:sys_enter_set_mempolicy                                   
+                 0      syscalls:sys_enter_set_mempolicy_home_node                                   
+                73      syscalls:sys_enter_set_robust_list                                   
+                 8      syscalls:sys_enter_set_tid_address                                   
+                 0      syscalls:sys_enter_setdomainname                                   
+                 0      syscalls:sys_enter_setfsgid                                   
+                 0      syscalls:sys_enter_setfsuid                                   
+                 2      syscalls:sys_enter_setgid                                   
+
+      39.822073593 seconds time elapsed
+

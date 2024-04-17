@@ -1,0 +1,88 @@
+# started on Wed Jan 31 03:22:40 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      page_pool:page_pool_state_hold                                   
+                 0      page_pool:page_pool_state_release                                   
+                 0      page_pool:page_pool_update_nid                                   
+                 0      pagemap:mm_lru_activate                                     
+             6,503      pagemap:mm_lru_insertion                                    
+               110      percpu:percpu_alloc_percpu                                   
+                 0      percpu:percpu_alloc_percpu_fail                                   
+                 0      percpu:percpu_create_chunk                                   
+                 0      percpu:percpu_destroy_chunk                                   
+               223      percpu:percpu_free_percpu                                   
+                 0      power:clock_disable                                         
+                 0      power:clock_enable                                          
+                 0      power:clock_set_rate                                        
+                 0      power:cpu_frequency                                         
+                 0      power:cpu_frequency_limits                                   
+            22,496      power:cpu_idle                                              
+             1,311      power:cpu_idle_miss                                         
+                 0      power:dev_pm_qos_add_request                                   
+                 0      power:dev_pm_qos_remove_request                                   
+                 0      power:dev_pm_qos_update_request                                   
+                 0      power:device_pm_callback_end                                   
+                 0      power:device_pm_callback_start                                   
+                 0      power:guest_halt_poll_ns                                    
+                 0      power:pm_qos_add_request                                    
+                 0      power:pm_qos_remove_request                                   
+                 0      power:pm_qos_update_flags                                   
+                 0      power:pm_qos_update_request                                   
+                 0      power:pm_qos_update_target                                   
+                 0      power:power_domain_target                                   
+                 0      power:powernv_throttle                                      
+                 0      power:pstate_sample                                         
+                 0      power:suspend_resume                                        
+                 0      power:wakeup_source_activate                                   
+                 0      power:wakeup_source_deactivate                                   
+                 0      printk:console                                              
+                 0      qdisc:qdisc_create                                          
+                 0      qdisc:qdisc_dequeue                                         
+                 0      qdisc:qdisc_destroy                                         
+                 0      qdisc:qdisc_enqueue                                         
+                 0      qdisc:qdisc_reset                                           
+                 0      ras:aer_event                                               
+                 0      ras:arm_event                                               
+                 0      ras:mc_event                                                
+                 0      ras:memory_failure_event                                    
+                 0      ras:non_standard_event                                      
+            12,145      raw_syscalls:sys_enter                                      
+            12,189      raw_syscalls:sys_exit                                       
+                 0      rcu:rcu_stall_warning                                       
+           178,118      rcu:rcu_utilization                                         
+                 0      regmap:regcache_drop_region                                   
+                 0      regmap:regcache_sync                                        
+                 0      regmap:regmap_async_complete_done                                   
+                 0      regmap:regmap_async_complete_start                                   
+                 0      regmap:regmap_async_io_complete                                   
+                 0      regmap:regmap_async_write_start                                   
+                 0      regmap:regmap_bulk_read                                     
+                 0      regmap:regmap_bulk_write                                    
+                 0      regmap:regmap_cache_bypass                                   
+                 0      regmap:regmap_cache_only                                    
+                 0      regmap:regmap_hw_read_done                                   
+                 0      regmap:regmap_hw_read_start                                   
+                 0      regmap:regmap_hw_write_done                                   
+                 0      regmap:regmap_hw_write_start                                   
+                 0      regmap:regmap_reg_read                                      
+                 0      regmap:regmap_reg_read_cache                                   
+                 0      regmap:regmap_reg_write                                     
+                 0      regulator:regulator_bypass_disable                                   
+                 0      regulator:regulator_bypass_disable_complete                                   
+                 0      regulator:regulator_bypass_enable                                   
+                 0      regulator:regulator_bypass_enable_complete                                   
+                 0      regulator:regulator_disable                                   
+                 0      regulator:regulator_disable_complete                                   
+                 0      regulator:regulator_enable                                   
+                 0      regulator:regulator_enable_complete                                   
+                 0      regulator:regulator_enable_delay                                   
+                 0      regulator:regulator_set_voltage                                   
+                 0      regulator:regulator_set_voltage_complete                                   
+                 0      rpm:rpm_idle                                                
+                35      rpm:rpm_resume                                              
+                35      rpm:rpm_return_int                                          
+
+      69.568677331 seconds time elapsed
+

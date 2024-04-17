@@ -1,0 +1,88 @@
+# started on Sun Jan 21 06:28:40 2024
+
+
+ Performance counter stats for 'system wide':
+
+                12      xfs:xfs_log_regrant                                         
+                12      xfs:xfs_log_regrant_exit                                    
+             2,864      xfs:xfs_log_reserve                                         
+             2,864      xfs:xfs_log_reserve_exit                                    
+                31      xfs:xfs_log_ticket_regrant                                   
+                12      xfs:xfs_log_ticket_regrant_exit                                   
+                31      xfs:xfs_log_ticket_regrant_sub                                   
+             2,879      xfs:xfs_log_ticket_ungrant                                   
+             2,879      xfs:xfs_log_ticket_ungrant_exit                                   
+             2,879      xfs:xfs_log_ticket_ungrant_sub                                   
+                 0      xfs:xfs_log_umount_write                                    
+               159      xfs:xfs_lookup                                              
+                15      xfs:xfs_map_blocks_alloc                                    
+                 6      xfs:xfs_map_blocks_found                                    
+                 0      xfs:xfs_pagecache_inval                                     
+                16      xfs:xfs_perag_clear_inode_tag                                   
+               677      xfs:xfs_perag_get                                           
+                 0      xfs:xfs_perag_get_tag                                       
+                79      xfs:xfs_perag_grab                                          
+                33      xfs:xfs_perag_grab_tag                                      
+               174      xfs:xfs_perag_hold                                          
+               851      xfs:xfs_perag_put                                           
+               112      xfs:xfs_perag_rele                                          
+                11      xfs:xfs_perag_set_inode_tag                                   
+                 0      xfs:xfs_pwork_init                                          
+                 0      xfs:xfs_quota_expiry_range                                   
+                27      xfs:xfs_read_agf                                            
+               150      xfs:xfs_read_agi                                            
+                 0      xfs:xfs_read_extent                                         
+                50      xfs:xfs_readdir                                             
+             2,367      xfs:xfs_readlink                                            
+                 0      xfs:xfs_refcount_adjust_cow_error                                   
+                 0      xfs:xfs_refcount_adjust_error                                   
+                 0      xfs:xfs_refcount_cow_decrease                                   
+                 0      xfs:xfs_refcount_cow_increase                                   
+                 0      xfs:xfs_refcount_decrease                                   
+                 0      xfs:xfs_refcount_defer                                      
+                 0      xfs:xfs_refcount_deferred                                   
+                 0      xfs:xfs_refcount_delete                                     
+                 0      xfs:xfs_refcount_delete_error                                   
+                 0      xfs:xfs_refcount_find_left_extent                                   
+                 0      xfs:xfs_refcount_find_left_extent_error                                   
+                 0      xfs:xfs_refcount_find_right_extent                                   
+                 0      xfs:xfs_refcount_find_right_extent_error                                   
+                 0      xfs:xfs_refcount_find_shared                                   
+                 0      xfs:xfs_refcount_find_shared_error                                   
+                 0      xfs:xfs_refcount_find_shared_result                                   
+                 0      xfs:xfs_refcount_finish_one_leftover                                   
+                 0      xfs:xfs_refcount_get                                        
+                 0      xfs:xfs_refcount_increase                                   
+                 0      xfs:xfs_refcount_insert                                     
+                 0      xfs:xfs_refcount_insert_error                                   
+                 0      xfs:xfs_refcount_lookup                                     
+                 0      xfs:xfs_refcount_merge_center_extents                                   
+                 0      xfs:xfs_refcount_merge_center_extents_error                                   
+                 0      xfs:xfs_refcount_merge_left_extent                                   
+                 0      xfs:xfs_refcount_merge_left_extent_error                                   
+                 0      xfs:xfs_refcount_merge_right_extent                                   
+                 0      xfs:xfs_refcount_merge_right_extent_error                                   
+                 0      xfs:xfs_refcount_modify_extent                                   
+                 0      xfs:xfs_refcount_modify_extent_error                                   
+                 0      xfs:xfs_refcount_recover_extent                                   
+                 0      xfs:xfs_refcount_split_extent                                   
+                 0      xfs:xfs_refcount_split_extent_error                                   
+                 0      xfs:xfs_refcount_update                                     
+                 0      xfs:xfs_refcount_update_error                                   
+                 0      xfs:xfs_refcountbt_alloc_block                                   
+                 0      xfs:xfs_refcountbt_free_block                                   
+                 0      xfs:xfs_reflink_bounce_dio_write                                   
+                 0      xfs:xfs_reflink_cancel_cow                                   
+                 0      xfs:xfs_reflink_cancel_cow_range                                   
+                 0      xfs:xfs_reflink_cancel_cow_range_error                                   
+                 0      xfs:xfs_reflink_compare_extents                                   
+                 0      xfs:xfs_reflink_compare_extents_error                                   
+                 0      xfs:xfs_reflink_convert_cow                                   
+                 0      xfs:xfs_reflink_cow_enospc                                   
+                 0      xfs:xfs_reflink_cow_found                                   
+                 0      xfs:xfs_reflink_cow_remap_from                                   
+                 0      xfs:xfs_reflink_cow_remap_to                                   
+                 0      xfs:xfs_reflink_end_cow                                     
+
+      39.706821165 seconds time elapsed
+

@@ -1,0 +1,88 @@
+# started on Sun Jan 21 03:19:53 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      syscalls:sys_exit_ustat                                     
+                 0      syscalls:sys_exit_utime                                     
+                 0      syscalls:sys_exit_utimensat                                   
+                 0      syscalls:sys_exit_utimes                                    
+                 0      syscalls:sys_exit_vfork                                     
+                 0      syscalls:sys_exit_vhangup                                   
+                 0      syscalls:sys_exit_vmsplice                                   
+                61      syscalls:sys_exit_wait4                                     
+                 6      syscalls:sys_exit_waitid                                    
+               291      syscalls:sys_exit_write                                     
+               292      syscalls:sys_exit_writev                                    
+                89      task:task_newtask                                           
+                38      task:task_rename                                            
+                 0      tcp:tcp_bad_csum                                            
+                 0      tcp:tcp_cong_state_set                                      
+                 0      tcp:tcp_destroy_sock                                        
+                 0      tcp:tcp_probe                                               
+                 0      tcp:tcp_rcv_space_adjust                                    
+                 0      tcp:tcp_receive_reset                                       
+                 0      tcp:tcp_retransmit_skb                                      
+                 0      tcp:tcp_retransmit_synack                                   
+                 0      tcp:tcp_send_reset                                          
+                 0      thermal:cdev_update                                         
+                 0      thermal:thermal_temperature                                   
+                 0      thermal:thermal_zone_trip                                   
+                 0      thp:hugepage_set_pmd                                        
+                 0      thp:hugepage_update                                         
+                 0      thp:remove_migration_pmd                                    
+                 0      thp:set_migration_pmd                                       
+           109,798      timer:hrtimer_cancel                                        
+            57,990      timer:hrtimer_expire_entry                                   
+            57,993      timer:hrtimer_expire_exit                                   
+            18,110      timer:hrtimer_init                                          
+           109,786      timer:hrtimer_start                                         
+                 1      timer:itimer_expire                                         
+                18      timer:itimer_state                                          
+            26,709      timer:tick_stop                                             
+             3,492      timer:timer_cancel                                          
+             3,436      timer:timer_expire_entry                                    
+             3,436      timer:timer_expire_exit                                     
+             2,229      timer:timer_init                                            
+             3,484      timer:timer_start                                           
+            19,839      tlb:tlb_flush                                               
+                 0      udp:udp_fail_queue_rcv_skb                                   
+               436      vmalloc:alloc_vmap_area                                     
+               452      vmalloc:free_vmap_area_noflush                                   
+                 9      vmalloc:purge_vmap_area_lazy                                   
+                 0      vmscan:mm_shrink_slab_end                                   
+                 0      vmscan:mm_shrink_slab_start                                   
+                 0      vmscan:mm_vmscan_direct_reclaim_begin                                   
+                 0      vmscan:mm_vmscan_direct_reclaim_end                                   
+                 0      vmscan:mm_vmscan_kswapd_sleep                                   
+                 0      vmscan:mm_vmscan_kswapd_wake                                   
+                 0      vmscan:mm_vmscan_lru_isolate                                   
+                 0      vmscan:mm_vmscan_lru_shrink_active                                   
+                 0      vmscan:mm_vmscan_lru_shrink_inactive                                   
+                 0      vmscan:mm_vmscan_memcg_reclaim_begin                                   
+                 0      vmscan:mm_vmscan_memcg_reclaim_end                                   
+                 0      vmscan:mm_vmscan_memcg_softlimit_reclaim_begin                                   
+                 0      vmscan:mm_vmscan_memcg_softlimit_reclaim_end                                   
+                 0      vmscan:mm_vmscan_node_reclaim_begin                                   
+                 0      vmscan:mm_vmscan_node_reclaim_end                                   
+                 0      vmscan:mm_vmscan_throttled                                   
+                 0      vmscan:mm_vmscan_wakeup_kswapd                                   
+                 0      vmscan:mm_vmscan_write_folio                                   
+                 0      vsock:virtio_transport_alloc_pkt                                   
+                 0      vsock:virtio_transport_recv_pkt                                   
+                 0      vsyscall:emulate_vsyscall                                   
+                 0      watchdog:watchdog_ping                                      
+                 0      watchdog:watchdog_set_timeout                                   
+                 0      watchdog:watchdog_start                                     
+                 0      watchdog:watchdog_stop                                      
+                 0      wbt:wbt_lat                                                 
+                 0      wbt:wbt_stat                                                
+                40      wbt:wbt_step                                                
+               129      wbt:wbt_timer                                               
+             1,085      workqueue:workqueue_activate_work                                   
+             1,086      workqueue:workqueue_execute_end                                   
+             1,086      workqueue:workqueue_execute_start                                   
+             1,085      workqueue:workqueue_queue_work                                   
+
+      39.679921903 seconds time elapsed
+

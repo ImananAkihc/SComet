@@ -1,0 +1,88 @@
+# started on Wed Jan 31 00:28:07 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      irq_vectors:vector_update                                   
+                 0      irq_vectors:x86_platform_ipi_entry                                   
+                 0      irq_vectors:x86_platform_ipi_exit                                   
+             7,514      kmem:kfree                                                  
+             2,235      kmem:kmalloc                                                
+            10,505      kmem:kmem_cache_alloc                                       
+            20,910      kmem:kmem_cache_free                                        
+             6,863      kmem:mm_page_alloc                                          
+                 0      kmem:mm_page_alloc_extfrag                                   
+             1,717      kmem:mm_page_alloc_zone_locked                                   
+             8,860      kmem:mm_page_free                                           
+             8,065      kmem:mm_page_free_batched                                   
+             4,764      kmem:mm_page_pcpu_drain                                     
+            38,155      kmem:rss_stat                                               
+                 0      ksm:ksm_enter                                               
+                 0      ksm:ksm_exit                                                
+                 0      ksm:ksm_merge_one_page                                      
+                 0      ksm:ksm_merge_with_ksm_page                                   
+                 0      ksm:ksm_remove_ksm_page                                     
+                 0      ksm:ksm_remove_rmap_item                                    
+                 0      ksm:ksm_start_scan                                          
+                 0      ksm:ksm_stop_scan                                           
+                 0      kvm:kvm_ack_irq                                             
+                 0      kvm:kvm_age_hva                                             
+                 0      kvm:kvm_apic                                                
+                 0      kvm:kvm_apic_accept_irq                                     
+                 0      kvm:kvm_apic_ipi                                            
+                 0      kvm:kvm_apicv_accept_irq                                    
+                 0      kvm:kvm_apicv_inhibit_changed                                   
+                 0      kvm:kvm_async_pf_completed                                   
+                 0      kvm:kvm_async_pf_not_present                                   
+                 0      kvm:kvm_async_pf_ready                                      
+                 0      kvm:kvm_async_pf_repeated_fault                                   
+                 0      kvm:kvm_avic_doorbell                                       
+                 0      kvm:kvm_avic_ga_log                                         
+                 0      kvm:kvm_avic_incomplete_ipi                                   
+                 0      kvm:kvm_avic_kick_vcpu_slowpath                                   
+                 0      kvm:kvm_avic_unaccelerated_access                                   
+                 0      kvm:kvm_cpuid                                               
+                 0      kvm:kvm_cr                                                  
+                 0      kvm:kvm_dirty_ring_exit                                     
+                 0      kvm:kvm_dirty_ring_push                                     
+                 0      kvm:kvm_dirty_ring_reset                                    
+                 0      kvm:kvm_emulate_insn                                        
+                 0      kvm:kvm_entry                                               
+                 0      kvm:kvm_eoi                                                 
+                 0      kvm:kvm_exit                                                
+                 0      kvm:kvm_fast_mmio                                           
+                 0      kvm:kvm_fpu                                                 
+                 0      kvm:kvm_halt_poll_ns                                        
+                 0      kvm:kvm_hv_flush_tlb                                        
+                 0      kvm:kvm_hv_flush_tlb_ex                                     
+                 0      kvm:kvm_hv_hypercall                                        
+                 0      kvm:kvm_hv_hypercall_done                                   
+                 0      kvm:kvm_hv_notify_acked_sint                                   
+                 0      kvm:kvm_hv_send_ipi                                         
+                 0      kvm:kvm_hv_send_ipi_ex                                      
+                 0      kvm:kvm_hv_stimer_callback                                   
+                 0      kvm:kvm_hv_stimer_cleanup                                   
+                 0      kvm:kvm_hv_stimer_expiration                                   
+                 0      kvm:kvm_hv_stimer_set_config                                   
+                 0      kvm:kvm_hv_stimer_set_count                                   
+                 0      kvm:kvm_hv_stimer_start_one_shot                                   
+                 0      kvm:kvm_hv_stimer_start_periodic                                   
+                 0      kvm:kvm_hv_syndbg_get_msr                                   
+                 0      kvm:kvm_hv_syndbg_set_msr                                   
+                 0      kvm:kvm_hv_synic_send_eoi                                   
+                 0      kvm:kvm_hv_synic_set_irq                                    
+                 0      kvm:kvm_hv_synic_set_msr                                    
+                 0      kvm:kvm_hv_timer_state                                      
+                 0      kvm:kvm_hypercall                                           
+                 0      kvm:kvm_inj_exception                                       
+                 0      kvm:kvm_inj_virq                                            
+                 0      kvm:kvm_invlpga                                             
+                 0      kvm:kvm_ioapic_delayed_eoi_inj                                   
+                 0      kvm:kvm_ioapic_set_irq                                      
+                 0      kvm:kvm_mmio                                                
+                 0      kvm:kvm_msi_set_irq                                         
+                 0      kvm:kvm_msr                                                 
+                 0      kvm:kvm_nested_intercepts                                   
+
+      69.562754679 seconds time elapsed
+

@@ -1,0 +1,88 @@
+# started on Sun Jan 21 05:08:27 2024
+
+
+ Performance counter stats for 'system wide':
+
+               209      xfs:xfs_buf_item_release                                    
+               117      xfs:xfs_buf_item_relse                                      
+               209      xfs:xfs_buf_item_size                                       
+                 0      xfs:xfs_buf_item_size_ordered                                   
+                 0      xfs:xfs_buf_item_size_stale                                   
+                50      xfs:xfs_buf_item_unpin                                      
+                 0      xfs:xfs_buf_item_unpin_stale                                   
+               304      xfs:xfs_buf_lock                                            
+               304      xfs:xfs_buf_lock_done                                       
+               325      xfs:xfs_buf_read                                            
+               679      xfs:xfs_buf_rele                                            
+                48      xfs:xfs_buf_submit                                          
+               119      xfs:xfs_buf_trylock                                         
+                 0      xfs:xfs_buf_trylock_fail                                    
+               423      xfs:xfs_buf_unlock                                          
+                25      xfs:xfs_bunmap                                              
+                 0      xfs:xfs_check_new_dalign                                    
+                 4      xfs:xfs_cil_whiteout_mark                                   
+                 6      xfs:xfs_cil_whiteout_skip                                   
+                 6      xfs:xfs_cil_whiteout_unpin                                   
+                 0      xfs:xfs_collapse_file_space                                   
+                43      xfs:xfs_create                                              
+                 0      xfs:xfs_da_fixhashpath                                      
+                 0      xfs:xfs_da_grow_inode                                       
+                 0      xfs:xfs_da_join                                             
+                 0      xfs:xfs_da_link_after                                       
+                 0      xfs:xfs_da_link_before                                      
+                 0      xfs:xfs_da_node_add                                         
+                 0      xfs:xfs_da_node_create                                      
+                 0      xfs:xfs_da_node_rebalance                                   
+                 0      xfs:xfs_da_node_remove                                      
+                 0      xfs:xfs_da_node_split                                       
+                 0      xfs:xfs_da_node_toosmall                                    
+                 0      xfs:xfs_da_node_unbalance                                   
+                 0      xfs:xfs_da_path_shift                                       
+                 0      xfs:xfs_da_root_join                                        
+                 0      xfs:xfs_da_root_split                                       
+                 0      xfs:xfs_da_shrink_inode                                     
+                 0      xfs:xfs_da_split                                            
+                 0      xfs:xfs_da_swap_lastblock                                   
+                 0      xfs:xfs_da_unlink_back                                      
+                 0      xfs:xfs_da_unlink_forward                                   
+                71      xfs:xfs_defer_add_item                                      
+                 0      xfs:xfs_defer_cancel                                        
+                 0      xfs:xfs_defer_cancel_item                                   
+                 0      xfs:xfs_defer_cancel_list                                   
+                71      xfs:xfs_defer_create_intent                                   
+               254      xfs:xfs_defer_finish                                        
+               254      xfs:xfs_defer_finish_done                                   
+                 0      xfs:xfs_defer_finish_error                                   
+                71      xfs:xfs_defer_finish_item                                   
+                 0      xfs:xfs_defer_pending_abort                                   
+                71      xfs:xfs_defer_pending_finish                                   
+                 0      xfs:xfs_defer_relog_intent                                   
+                 0      xfs:xfs_defer_trans_abort                                   
+                14      xfs:xfs_defer_trans_roll                                    
+                 0      xfs:xfs_defer_trans_roll_error                                   
+                 0      xfs:xfs_delalloc_enospc                                     
+                20      xfs:xfs_destroy_inode                                       
+                 4      xfs:xfs_dir2_block_addname                                   
+                 4      xfs:xfs_dir2_block_lookup                                   
+                 4      xfs:xfs_dir2_block_removename                                   
+                 4      xfs:xfs_dir2_block_replace                                   
+                 0      xfs:xfs_dir2_block_to_leaf                                   
+                 0      xfs:xfs_dir2_block_to_sf                                    
+                 0      xfs:xfs_dir2_grow_inode                                     
+                 0      xfs:xfs_dir2_leaf_addname                                   
+                 0      xfs:xfs_dir2_leaf_lookup                                    
+                 0      xfs:xfs_dir2_leaf_removename                                   
+                 0      xfs:xfs_dir2_leaf_replace                                   
+                 0      xfs:xfs_dir2_leaf_to_block                                   
+                 0      xfs:xfs_dir2_leaf_to_node                                   
+                 0      xfs:xfs_dir2_leafn_add                                      
+                 0      xfs:xfs_dir2_leafn_moveents                                   
+                 0      xfs:xfs_dir2_leafn_remove                                   
+                 0      xfs:xfs_dir2_node_addname                                   
+                 0      xfs:xfs_dir2_node_lookup                                    
+                 0      xfs:xfs_dir2_node_removename                                   
+                 0      xfs:xfs_dir2_node_replace                                   
+                 0      xfs:xfs_dir2_node_to_leaf                                   
+
+      39.787943173 seconds time elapsed
+

@@ -1,0 +1,88 @@
+# started on Mon Feb  5 16:15:40 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      sunrpc:svc_unregister                                       
+                 0      sunrpc:svc_wake_up                                          
+                 0      sunrpc:svc_xdr_recvfrom                                     
+                 0      sunrpc:svc_xdr_sendto                                       
+                 0      sunrpc:svc_xprt_accept                                      
+                 0      sunrpc:svc_xprt_close                                       
+                 0      sunrpc:svc_xprt_create_err                                   
+                 0      sunrpc:svc_xprt_dequeue                                     
+                 0      sunrpc:svc_xprt_detach                                      
+                 0      sunrpc:svc_xprt_enqueue                                     
+                 0      sunrpc:svc_xprt_free                                        
+                 0      sunrpc:svc_xprt_no_write_space                                   
+                 0      sunrpc:svcsock_accept_err                                   
+                 0      sunrpc:svcsock_data_ready                                   
+                 0      sunrpc:svcsock_getpeername_err                                   
+                 0      sunrpc:svcsock_marker                                       
+                 0      sunrpc:svcsock_new_socket                                   
+                 0      sunrpc:svcsock_tcp_recv                                     
+                 0      sunrpc:svcsock_tcp_recv_eagain                                   
+                 0      sunrpc:svcsock_tcp_recv_err                                   
+                 0      sunrpc:svcsock_tcp_recv_short                                   
+                 0      sunrpc:svcsock_tcp_send                                     
+                 0      sunrpc:svcsock_tcp_state                                    
+                 0      sunrpc:svcsock_udp_recv                                     
+                 0      sunrpc:svcsock_udp_recv_err                                   
+                 0      sunrpc:svcsock_udp_send                                     
+                 0      sunrpc:svcsock_write_space                                   
+                 0      sunrpc:xprt_connect                                         
+                 0      sunrpc:xprt_create                                          
+                 0      sunrpc:xprt_destroy                                         
+                 0      sunrpc:xprt_disconnect_auto                                   
+                 0      sunrpc:xprt_disconnect_done                                   
+                 0      sunrpc:xprt_disconnect_force                                   
+                 0      sunrpc:xprt_get_cong                                        
+                 0      sunrpc:xprt_lookup_rqst                                     
+                 0      sunrpc:xprt_ping                                            
+                 0      sunrpc:xprt_put_cong                                        
+                 0      sunrpc:xprt_release_cong                                    
+                 0      sunrpc:xprt_release_xprt                                    
+                 0      sunrpc:xprt_reserve                                         
+                 0      sunrpc:xprt_reserve_cong                                    
+                 0      sunrpc:xprt_reserve_xprt                                    
+                 0      sunrpc:xprt_retransmit                                      
+                 0      sunrpc:xprt_timer                                           
+                 0      sunrpc:xprt_transmit                                        
+                 0      sunrpc:xs_data_ready                                        
+                 0      sunrpc:xs_stream_read_data                                   
+                 0      sunrpc:xs_stream_read_request                                   
+                 0      swiotlb:swiotlb_bounced                                     
+                 1      syscalls:sys_enter_accept                                   
+                 6      syscalls:sys_enter_accept4                                   
+                68      syscalls:sys_enter_access                                   
+                 0      syscalls:sys_enter_acct                                     
+                 0      syscalls:sys_enter_add_key                                   
+                 0      syscalls:sys_enter_adjtimex                                   
+                 5      syscalls:sys_enter_alarm                                    
+                11      syscalls:sys_enter_arch_prctl                                   
+                 0      syscalls:sys_enter_bind                                     
+                 0      syscalls:sys_enter_bpf                                      
+                44      syscalls:sys_enter_brk                                      
+                 7      syscalls:sys_enter_capget                                   
+                 1      syscalls:sys_enter_capset                                   
+                 3      syscalls:sys_enter_chdir                                    
+                 0      syscalls:sys_enter_chmod                                    
+                 0      syscalls:sys_enter_chown                                    
+                 0      syscalls:sys_enter_chroot                                   
+                 0      syscalls:sys_enter_clock_adjtime                                   
+                 0      syscalls:sys_enter_clock_getres                                   
+                 0      syscalls:sys_enter_clock_gettime                                   
+                 0      syscalls:sys_enter_clock_nanosleep                                   
+                 0      syscalls:sys_enter_clock_settime                                   
+                95      syscalls:sys_enter_clone                                    
+                 0      syscalls:sys_enter_clone3                                   
+               649      syscalls:sys_enter_close                                    
+                 0      syscalls:sys_enter_close_range                                   
+                11      syscalls:sys_enter_connect                                   
+                 0      syscalls:sys_enter_copy_file_range                                   
+                 0      syscalls:sys_enter_creat                                    
+                 0      syscalls:sys_enter_delete_module                                   
+                 0      syscalls:sys_enter_dup                                      
+
+      69.746315729 seconds time elapsed
+

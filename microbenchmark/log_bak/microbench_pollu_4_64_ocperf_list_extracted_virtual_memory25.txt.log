@@ -1,0 +1,88 @@
+# started on Wed Jan 31 20:06:17 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 1      xfs:xfs_dir2_sf_addname                                     
+                 0      xfs:xfs_dir2_sf_create                                      
+                 1      xfs:xfs_dir2_sf_lookup                                      
+                 1      xfs:xfs_dir2_sf_removename                                   
+                 0      xfs:xfs_dir2_sf_replace                                     
+                 0      xfs:xfs_dir2_sf_to_block                                    
+                 0      xfs:xfs_dir2_sf_toino4                                      
+                 0      xfs:xfs_dir2_sf_toino8                                      
+                 0      xfs:xfs_dir2_shrink_inode                                   
+                 0      xfs:xfs_dir_fsync                                           
+                 0      xfs:xfs_discard_busy                                        
+                 0      xfs:xfs_discard_exclude                                     
+                 0      xfs:xfs_discard_extent                                      
+                 0      xfs:xfs_discard_toosmall                                    
+                 0      xfs:xfs_dqadjust                                            
+                 0      xfs:xfs_dqalloc                                             
+                 0      xfs:xfs_dqattach_found                                      
+                 0      xfs:xfs_dqattach_get                                        
+                 0      xfs:xfs_dqflush                                             
+                 0      xfs:xfs_dqflush_done                                        
+                 0      xfs:xfs_dqflush_force                                       
+                 0      xfs:xfs_dqget_dup                                           
+                 0      xfs:xfs_dqget_freeing                                       
+                 0      xfs:xfs_dqget_hit                                           
+                 0      xfs:xfs_dqget_miss                                          
+                 0      xfs:xfs_dqput                                               
+                 0      xfs:xfs_dqput_free                                          
+                 0      xfs:xfs_dqread                                              
+                 0      xfs:xfs_dqread_fail                                         
+                 0      xfs:xfs_dqreclaim_busy                                      
+                 0      xfs:xfs_dqreclaim_dirty                                     
+                 0      xfs:xfs_dqreclaim_done                                      
+                 0      xfs:xfs_dqreclaim_want                                      
+                 0      xfs:xfs_dqrele                                              
+                 0      xfs:xfs_dqtobp_read                                         
+                 0      xfs:xfs_dquot_dqalloc                                       
+                 0      xfs:xfs_dquot_dqdetach                                      
+                 0      xfs:xfs_end_io_direct_write                                   
+                 0      xfs:xfs_end_io_direct_write_append                                   
+                 0      xfs:xfs_end_io_direct_write_unwritten                                   
+                 6      xfs:xfs_extent_busy                                         
+                 7      xfs:xfs_extent_busy_clear                                   
+                 0      xfs:xfs_extent_busy_enomem                                   
+                 0      xfs:xfs_extent_busy_force                                   
+                 0      xfs:xfs_extent_busy_reuse                                   
+                 0      xfs:xfs_extent_busy_trim                                    
+               156      xfs:xfs_file_buffered_read                                   
+                 6      xfs:xfs_file_buffered_write                                   
+                 0      xfs:xfs_file_compat_ioctl                                   
+                 0      xfs:xfs_file_dax_read                                       
+                 0      xfs:xfs_file_dax_write                                      
+                 0      xfs:xfs_file_direct_read                                    
+                 0      xfs:xfs_file_direct_write                                   
+                 4      xfs:xfs_file_fsync                                          
+                 0      xfs:xfs_file_ioctl                                          
+             1,879      xfs:xfs_filemap_fault                                       
+                 0      xfs:xfs_filestream_free                                     
+                 0      xfs:xfs_filestream_lookup                                   
+                 0      xfs:xfs_filestream_pick                                     
+                 0      xfs:xfs_filestream_scan                                     
+                 0      xfs:xfs_force_shutdown                                      
+                 6      xfs:xfs_free_extent                                         
+                 0      xfs:xfs_free_file_space                                     
+                 0      xfs:xfs_fs_mark_healthy                                     
+                 0      xfs:xfs_fs_mark_sick                                        
+                 0      xfs:xfs_fs_sync_fs                                          
+                 0      xfs:xfs_fs_unfixed_corruption                                   
+                 0      xfs:xfs_fsmap_high_key                                      
+                 0      xfs:xfs_fsmap_low_key                                       
+                 0      xfs:xfs_fsmap_mapping                                       
+                 4      xfs:xfs_get_acl                                             
+               151      xfs:xfs_getattr                                             
+                 0      xfs:xfs_getfsmap_high_key                                   
+                 0      xfs:xfs_getfsmap_low_key                                    
+                 0      xfs:xfs_getfsmap_mapping                                    
+                10      xfs:xfs_ialloc_read_agi                                     
+                 5      xfs:xfs_iext_insert                                         
+                 7      xfs:xfs_iext_remove                                         
+                 0      xfs:xfs_iget_hit                                            
+                 2      xfs:xfs_iget_miss                                           
+
+      69.579789938 seconds time elapsed
+

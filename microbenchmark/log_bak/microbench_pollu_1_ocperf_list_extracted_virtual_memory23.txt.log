@@ -1,0 +1,88 @@
+# started on Wed Jan 31 17:36:32 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      xfs:xfs_attr_leaf_removename                                   
+                 0      xfs:xfs_attr_leaf_replace                                   
+                 0      xfs:xfs_attr_leaf_setflag                                   
+                 0      xfs:xfs_attr_leaf_split                                     
+                 0      xfs:xfs_attr_leaf_split_after                                   
+                 0      xfs:xfs_attr_leaf_split_before                                   
+                 0      xfs:xfs_attr_leaf_to_node                                   
+                 0      xfs:xfs_attr_leaf_to_sf                                     
+                 0      xfs:xfs_attr_leaf_toosmall                                   
+                 0      xfs:xfs_attr_leaf_unbalance                                   
+                 0      xfs:xfs_attr_list_add                                       
+                 0      xfs:xfs_attr_list_full                                      
+                 0      xfs:xfs_attr_list_leaf                                      
+                 0      xfs:xfs_attr_list_leaf_end                                   
+                 0      xfs:xfs_attr_list_node_descend                                   
+                 0      xfs:xfs_attr_list_notfound                                   
+                 0      xfs:xfs_attr_list_sf                                        
+                 0      xfs:xfs_attr_list_sf_all                                    
+                 0      xfs:xfs_attr_list_wrong_blk                                   
+                 0      xfs:xfs_attr_node_addname                                   
+                 0      xfs:xfs_attr_node_addname_return                                   
+                 0      xfs:xfs_attr_node_get                                       
+                 0      xfs:xfs_attr_node_list                                      
+                 0      xfs:xfs_attr_node_removename                                   
+                 0      xfs:xfs_attr_node_replace                                   
+                 0      xfs:xfs_attr_refillstate                                    
+                 0      xfs:xfs_attr_remove_iter_return                                   
+                 0      xfs:xfs_attr_rmtval_alloc                                   
+                 0      xfs:xfs_attr_rmtval_get                                     
+                 0      xfs:xfs_attr_rmtval_remove_return                                   
+                 0      xfs:xfs_attr_rmtval_set                                     
+                 0      xfs:xfs_attr_set_iter_return                                   
+                 5      xfs:xfs_attr_sf_add                                         
+                 5      xfs:xfs_attr_sf_addname                                     
+                 5      xfs:xfs_attr_sf_addname_return                                   
+                 5      xfs:xfs_attr_sf_create                                      
+                 5      xfs:xfs_attr_sf_lookup                                      
+                 0      xfs:xfs_attr_sf_remove                                      
+                 0      xfs:xfs_attr_sf_to_leaf                                     
+                 0      xfs:xfs_blockgc_flush_all                                   
+                 0      xfs:xfs_blockgc_free_space                                   
+                 0      xfs:xfs_blockgc_start                                       
+                 0      xfs:xfs_blockgc_stop                                        
+                 1      xfs:xfs_blockgc_worker                                      
+                 0      xfs:xfs_bmap_defer                                          
+                 0      xfs:xfs_bmap_deferred                                       
+                 5      xfs:xfs_bmap_free_defer                                     
+                 5      xfs:xfs_bmap_free_deferred                                   
+                18      xfs:xfs_bmap_post_update                                    
+                18      xfs:xfs_bmap_pre_update                                     
+                 0      xfs:xfs_btree_bload_block                                   
+                 0      xfs:xfs_btree_bload_level_geometry                                   
+                 0      xfs:xfs_btree_commit_afakeroot                                   
+                 0      xfs:xfs_btree_commit_ifakeroot                                   
+                 0      xfs:xfs_btree_corrupt                                       
+                 0      xfs:xfs_btree_overlapped_query_range                                   
+                 0      xfs:xfs_btree_updkeys                                       
+                 0      xfs:xfs_buf_delwri_pushbuf                                   
+                84      xfs:xfs_buf_delwri_queue                                    
+                 1      xfs:xfs_buf_delwri_queued                                   
+                84      xfs:xfs_buf_delwri_split                                    
+                 0      xfs:xfs_buf_drain_buftarg                                   
+                 0      xfs:xfs_buf_error_relse                                     
+               121      xfs:xfs_buf_find                                            
+                 0      xfs:xfs_buf_free                                            
+               121      xfs:xfs_buf_get                                             
+                 0      xfs:xfs_buf_get_uncached                                    
+               223      xfs:xfs_buf_hold                                            
+                 0      xfs:xfs_buf_init                                            
+                84      xfs:xfs_buf_iodone                                          
+                 0      xfs:xfs_buf_iodone_async                                    
+                 0      xfs:xfs_buf_ioerror                                         
+                 0      xfs:xfs_buf_iowait                                          
+                 0      xfs:xfs_buf_iowait_done                                     
+                51      xfs:xfs_buf_item_committed                                   
+                76      xfs:xfs_buf_item_format                                     
+                 0      xfs:xfs_buf_item_format_stale                                   
+                 0      xfs:xfs_buf_item_ordered                                    
+                43      xfs:xfs_buf_item_pin                                        
+                45      xfs:xfs_buf_item_push                                       
+
+      69.557319474 seconds time elapsed
+

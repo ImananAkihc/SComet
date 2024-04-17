@@ -1,0 +1,88 @@
+# started on Tue Feb  6 03:16:52 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 2      xfs:xfs_iget_recycle                                        
+                 0      xfs:xfs_iget_recycle_fail                                   
+                 0      xfs:xfs_iget_skip                                           
+               673      xfs:xfs_ilock                                               
+                 0      xfs:xfs_ilock_demote                                        
+               427      xfs:xfs_ilock_nowait                                        
+                 0      xfs:xfs_inactive_symlink                                    
+                 0      xfs:xfs_inode_clear_cowblocks_tag                                   
+                 1      xfs:xfs_inode_clear_eofblocks_tag                                   
+                 0      xfs:xfs_inode_free_cowblocks_invalid                                   
+                 0      xfs:xfs_inode_free_eofblocks_invalid                                   
+                 5      xfs:xfs_inode_inactivating                                   
+                 0      xfs:xfs_inode_mark_healthy                                   
+                 0      xfs:xfs_inode_mark_sick                                     
+                27      xfs:xfs_inode_pin                                           
+                36      xfs:xfs_inode_reclaiming                                    
+                 0      xfs:xfs_inode_set_cowblocks_tag                                   
+                 0      xfs:xfs_inode_set_eofblocks_tag                                   
+                 5      xfs:xfs_inode_set_need_inactive                                   
+                 5      xfs:xfs_inode_set_reclaimable                                   
+                 0      xfs:xfs_inode_timestamp_range                                   
+                33      xfs:xfs_inode_unpin                                         
+                 0      xfs:xfs_inode_unpin_nowait                                   
+                 0      xfs:xfs_inodegc_flush                                       
+                 1      xfs:xfs_inodegc_push                                        
+                 5      xfs:xfs_inodegc_queue                                       
+                 0      xfs:xfs_inodegc_shrinker_scan                                   
+                 0      xfs:xfs_inodegc_start                                       
+                 0      xfs:xfs_inodegc_stop                                        
+                 0      xfs:xfs_inodegc_throttle                                    
+                 3      xfs:xfs_inodegc_worker                                      
+                 0      xfs:xfs_insert_file_space                                   
+                 0      xfs:xfs_ioc_free_eofblocks                                   
+                 0      xfs:xfs_ioctl_clone                                         
+                 0      xfs:xfs_ioctl_setattr                                       
+                 5      xfs:xfs_iomap_alloc                                         
+                 1      xfs:xfs_iomap_found                                         
+                 0      xfs:xfs_iomap_invalid                                       
+                 0      xfs:xfs_iomap_prealloc_size                                   
+                 0      xfs:xfs_irec_merge_post                                     
+                 0      xfs:xfs_irec_merge_pre                                      
+                 0      xfs:xfs_irele                                               
+                 6      xfs:xfs_itruncate_extents_end                                   
+                 6      xfs:xfs_itruncate_extents_start                                   
+                 5      xfs:xfs_iunlink                                             
+                10      xfs:xfs_iunlink_remove                                      
+                10      xfs:xfs_iunlink_update_bucket                                   
+                 0      xfs:xfs_iunlink_update_dinode                                   
+             1,080      xfs:xfs_iunlock                                             
+                 0      xfs:xfs_iwalk_ag                                            
+                 0      xfs:xfs_iwalk_ag_rec                                        
+                 0      xfs:xfs_link                                                
+                12      xfs:xfs_log_assign_tail_lsn                                   
+                 0      xfs:xfs_log_cil_wait                                        
+                23      xfs:xfs_log_force                                           
+                 0      xfs:xfs_log_get_max_trans_res                                   
+                 0      xfs:xfs_log_grant_sleep                                     
+                 0      xfs:xfs_log_grant_wake                                      
+                 0      xfs:xfs_log_grant_wake_up                                   
+                 0      xfs:xfs_log_recover                                         
+                 0      xfs:xfs_log_recover_buf_cancel                                   
+                 0      xfs:xfs_log_recover_buf_cancel_add                                   
+                 0      xfs:xfs_log_recover_buf_cancel_ref_inc                                   
+                 0      xfs:xfs_log_recover_buf_dquot_buf                                   
+                 0      xfs:xfs_log_recover_buf_inode_buf                                   
+                 0      xfs:xfs_log_recover_buf_not_cancel                                   
+                 0      xfs:xfs_log_recover_buf_recover                                   
+                 0      xfs:xfs_log_recover_buf_reg_buf                                   
+                 0      xfs:xfs_log_recover_buf_skip                                   
+                 0      xfs:xfs_log_recover_icreate_cancel                                   
+                 0      xfs:xfs_log_recover_icreate_recover                                   
+                 0      xfs:xfs_log_recover_inode_cancel                                   
+                 0      xfs:xfs_log_recover_inode_recover                                   
+                 0      xfs:xfs_log_recover_inode_skip                                   
+                 0      xfs:xfs_log_recover_item_add                                   
+                 0      xfs:xfs_log_recover_item_add_cont                                   
+                 0      xfs:xfs_log_recover_item_recover                                   
+                 0      xfs:xfs_log_recover_item_reorder_head                                   
+                 0      xfs:xfs_log_recover_item_reorder_tail                                   
+                 0      xfs:xfs_log_recover_record                                   
+
+      69.599433858 seconds time elapsed
+

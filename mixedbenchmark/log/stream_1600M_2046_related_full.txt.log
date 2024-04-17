@@ -1,0 +1,109 @@
+# started on Mon Mar 25 12:05:10 2024
+
+
+ Performance counter stats for 'system wide':
+
+             7,186      ipi:ipi_send_cpu                                            
+            15,454      r1d2                                                          (14.51%)
+                 4      huge_memory:mm_collapse_huge_page_isolate                                   
+                 4      huge_memory:mm_collapse_huge_page                                   
+         1,017,626      power:cpu_idle                                              
+               682      r803                                                          (14.51%)
+             6,594      power:cpu_idle_miss                                         
+             5,258      sched:sched_wake_idle_without_ipi                                   
+        15,927,415      msr:write_msr                                               
+       247,812,129      r1d3                                                          (14.51%)
+    66,111,813,759      r1b2                                                          (14.52%)
+         3,649,530      r4d2                                                          (14.52%)
+                 1      sched:sched_wait_task                                       
+                 4      neigh:neigh_event_send_done                                   
+                16      neigh:neigh_timer_handler                                   
+       191,376,801      r10ef                                                         (14.52%)
+         1,261,406      rcu:rcu_utilization                                         
+         2,845,562      r20ef                                                         (14.52%)
+         7,670,731      iTLB-load-misses                                              (14.52%)
+            77,561      r2c5                                                          (12.91%)
+                25      neigh:neigh_update                                          
+                25      neigh:neigh_update_done                                     
+     6,567,308,495      cache-misses              #   92.157 % of all cache refs      (12.91%)
+    37,270,854,932      r8a1                                                          (12.91%)
+   211,026,759,932      rc0                                                           (14.52%)
+            60,493      irq:softirq_exit                                            
+            60,490      irq:softirq_entry                                           
+            60,807      irq:softirq_raise                                           
+   117,655,828,429      r1000860                                                      (14.52%)
+        20,085,624      r8d2                                                          (14.52%)
+               840      net:net_dev_xmit                                            
+               840      net:net_dev_queue                                           
+               840      net:net_dev_start_xmit                                      
+            35,304      raw_syscalls:sys_enter                                      
+            35,361      raw_syscalls:sys_exit                                       
+     3,094,986,355      r260                                                          (14.52%)
+    15,349,080,851      r10a6                                                         (14.52%)
+         5,046,893      r40ef                                                         (14.52%)
+       858,941,949      r1000260                                                      (14.52%)
+               886      net:napi_gro_receive_entry                                   
+               886      net:napi_gro_receive_exit                                   
+    75,552,814,439      r140014a3                                                     (14.52%)
+       131,534,654      r1f2                                                          (14.52%)
+    26,828,913,943      r40002b1                                                      (12.91%)
+     1,067,087,174      r2224                                                         (12.91%)
+               894      net:netif_receive_skb                                       
+       767,599,513      r2ab                                                          (12.91%)
+               288      percpu:percpu_free_percpu                                   
+    45,661,403,898      r50005a3                                                      (12.91%)
+    63,462,578,865      r10001a3                                                      (12.91%)
+     1,226,641,991      r2724                                                         (12.91%)
+     4,025,020,013      r8b0                                                          (12.91%)
+         1,400,494      r187                                                          (12.91%)
+   117,083,933,949      r80008a3                                                      (12.91%)
+   990,801,481,989      r860                                                          (12.91%)
+               134      percpu:percpu_alloc_percpu                                   
+       773,702,212      r1b0                                                          (12.91%)
+         5,484,692      r8ef                                                          (12.91%)
+    70,447,036,591      rc000ca3                                                      (12.91%)
+     1,926,576,055      LLC-store-misses                                              (12.91%)
+       567,744,615      r480                                                          (12.91%)
+           820,871      r4c3                                                          (12.91%)
+    26,733,131,574      r40001b1                                                      (12.91%)
+     4,464,491,989      r10c4                                                         (12.91%)
+         1,140,691      msr:read_msr                                                
+           578,445      irq_vectors:local_timer_exit                                   
+           578,444      irq_vectors:local_timer_entry                                   
+    45,559,626,172      r40a1                                                         (12.91%)
+            39,491      sched:sched_switch                                          
+       599,176,820      LLC-loads                                                     (12.91%)
+       901,023,384      r800d                                                         (12.91%)
+                 6      filemap:mm_filemap_add_to_page_cache                                   
+            19,700      sched:sched_wakeup                                          
+            19,702      sched:sched_waking                                          
+       569,414,838      LLC-load-misses           #   95.03% of all LL-cache hits     (12.91%)
+         9,958,710      dTLB-load-misses          #    0.02% of all dTLB cache hits   (12.91%)
+         5,807,678      page-faults                                                 
+         5,897,018      filemap:mm_filemap_delete_from_page_cache                                   
+         5,807,578      minor-faults                                                
+    45,131,777,391      dTLB-loads                                                    (12.91%)
+     6,475,010,754      r3824                                                         (12.91%)
+   150,933,597,176      r100010a3                                                     (12.91%)
+       557,722,857      r20d1                                                         (12.90%)
+            99,023      r2d2                                                          (12.90%)
+     1,958,616,324      LLC-stores                                                    (12.90%)
+     8,592,392,519      rf824                                                         (12.90%)
+         5,875,867      pagemap:mm_lru_insertion                                    
+    63,584,759,570      r1000160                                                      (12.90%)
+     2,112,576,782      rd824                                                         (12.90%)
+     7,126,193,725      cache-references                                              (12.90%)
+        35,351,709      branch-load-misses                                            (12.90%)
+    15,446,015,619      r15e                                                          (12.90%)
+       218,163,644      r203                                                          (12.90%)
+        69,718,164      dTLB-store-misses                                             (12.90%)
+     7,689,095,497      r3f24                                                         (12.90%)
+    93,993,793,989      r40004a3                                                      (12.90%)
+   115,451,411,615      r1000460                                                      (12.90%)
+    93,984,616,779      r18002b1                                                      (12.90%)
+               133      scsi:scsi_dispatch_cmd_start                                   
+               133      scsi:scsi_dispatch_cmd_done                                   
+   211,197,116,985      instructions                                                  (14.51%)
+
+      71.284483931 seconds time elapsed
+

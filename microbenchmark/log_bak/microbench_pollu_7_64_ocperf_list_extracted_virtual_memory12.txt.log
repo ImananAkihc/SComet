@@ -1,0 +1,88 @@
+# started on Wed Jan 31 07:44:30 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 3      syscalls:sys_enter_dup2                                     
+                11      syscalls:sys_enter_dup3                                     
+                 0      syscalls:sys_enter_epoll_create                                   
+                 6      syscalls:sys_enter_epoll_create1                                   
+                99      syscalls:sys_enter_epoll_ctl                                   
+               781      syscalls:sys_enter_epoll_pwait                                   
+                 0      syscalls:sys_enter_epoll_pwait2                                   
+               131      syscalls:sys_enter_epoll_wait                                   
+                 0      syscalls:sys_enter_eventfd                                   
+                 0      syscalls:sys_enter_eventfd2                                   
+                10      syscalls:sys_enter_execve                                   
+                 0      syscalls:sys_enter_execveat                                   
+                59      syscalls:sys_enter_exit                                     
+                31      syscalls:sys_enter_exit_group                                   
+                 0      syscalls:sys_enter_faccessat                                   
+                10      syscalls:sys_enter_faccessat2                                   
+                 0      syscalls:sys_enter_fadvise64                                   
+                 0      syscalls:sys_enter_fallocate                                   
+                 0      syscalls:sys_enter_fanotify_init                                   
+                 0      syscalls:sys_enter_fanotify_mark                                   
+                 0      syscalls:sys_enter_fchdir                                   
+                 0      syscalls:sys_enter_fchmod                                   
+                 4      syscalls:sys_enter_fchmodat                                   
+                 2      syscalls:sys_enter_fchown                                   
+                 0      syscalls:sys_enter_fchownat                                   
+               432      syscalls:sys_enter_fcntl                                    
+                 2      syscalls:sys_enter_fdatasync                                   
+                 0      syscalls:sys_enter_fgetxattr                                   
+                 0      syscalls:sys_enter_finit_module                                   
+                 0      syscalls:sys_enter_flistxattr                                   
+                 0      syscalls:sys_enter_flock                                    
+                 0      syscalls:sys_enter_fork                                     
+                 0      syscalls:sys_enter_fremovexattr                                   
+                 0      syscalls:sys_enter_fsconfig                                   
+                 0      syscalls:sys_enter_fsetxattr                                   
+                 0      syscalls:sys_enter_fsmount                                   
+                 0      syscalls:sys_enter_fsopen                                   
+                 0      syscalls:sys_enter_fspick                                   
+                 6      syscalls:sys_enter_fstatfs                                   
+                 4      syscalls:sys_enter_fsync                                    
+                 1      syscalls:sys_enter_ftruncate                                   
+             1,784      syscalls:sys_enter_futex                                    
+                 0      syscalls:sys_enter_futex_waitv                                   
+                 0      syscalls:sys_enter_futimesat                                   
+                 0      syscalls:sys_enter_get_mempolicy                                   
+                 0      syscalls:sys_enter_get_robust_list                                   
+                 0      syscalls:sys_enter_getcpu                                   
+                 1      syscalls:sys_enter_getcwd                                   
+                 8      syscalls:sys_enter_getdents                                   
+                 2      syscalls:sys_enter_getdents64                                   
+                23      syscalls:sys_enter_getegid                                   
+                23      syscalls:sys_enter_geteuid                                   
+                23      syscalls:sys_enter_getgid                                   
+                 0      syscalls:sys_enter_getgroups                                   
+                 0      syscalls:sys_enter_getitimer                                   
+                 3      syscalls:sys_enter_getpeername                                   
+                 0      syscalls:sys_enter_getpgid                                   
+                 3      syscalls:sys_enter_getpgrp                                   
+                65      syscalls:sys_enter_getpid                                   
+                 6      syscalls:sys_enter_getppid                                   
+                 0      syscalls:sys_enter_getpriority                                   
+                 3      syscalls:sys_enter_getrandom                                   
+                 0      syscalls:sys_enter_getresgid                                   
+                 0      syscalls:sys_enter_getresuid                                   
+                16      syscalls:sys_enter_getrlimit                                   
+                 0      syscalls:sys_enter_getrusage                                   
+                 0      syscalls:sys_enter_getsid                                   
+                 8      syscalls:sys_enter_getsockname                                   
+                 1      syscalls:sys_enter_getsockopt                                   
+                39      syscalls:sys_enter_gettid                                   
+                 0      syscalls:sys_enter_gettimeofday                                   
+                23      syscalls:sys_enter_getuid                                   
+                 0      syscalls:sys_enter_getxattr                                   
+                 0      syscalls:sys_enter_init_module                                   
+                18      syscalls:sys_enter_inotify_add_watch                                   
+                 0      syscalls:sys_enter_inotify_init                                   
+                 0      syscalls:sys_enter_inotify_init1                                   
+                 0      syscalls:sys_enter_inotify_rm_watch                                   
+                 0      syscalls:sys_enter_io_cancel                                   
+                 0      syscalls:sys_enter_io_destroy                                   
+
+      69.883891718 seconds time elapsed
+

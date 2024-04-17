@@ -1,0 +1,88 @@
+# started on Mon Feb  5 13:31:33 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      libata:ata_slave_hardreset_begin                                   
+                 0      libata:ata_slave_hardreset_end                                   
+                 0      libata:ata_slave_postreset                                   
+                 0      libata:ata_std_sched_eh                                     
+                 0      libata:ata_tf_load                                          
+                 0      libata:atapi_pio_transfer_data                                   
+                 0      libata:atapi_send_cdb                                       
+               265      lock:contention_begin                                       
+               265      lock:contention_end                                         
+               183      maple_tree:ma_op                                            
+             6,145      maple_tree:ma_read                                          
+             4,042      maple_tree:ma_write                                         
+                 0      mce:mce_record                                              
+                 0      mdio:mdio_access                                            
+                 0      mei:mei_pci_cfg_read                                        
+                 0      mei:mei_reg_read                                            
+                 0      mei:mei_reg_write                                           
+                 0      migrate:mm_migrate_pages                                    
+                 0      migrate:mm_migrate_pages_start                                   
+                 0      migrate:remove_migration_pte                                   
+                 0      migrate:set_migration_pte                                   
+                46      mmap:exit_mmap                                              
+               423      mmap:vm_unmapped_area                                       
+                 0      mmap:vma_mas_szero                                          
+                 0      mmap:vma_store                                              
+             7,620      mmap_lock:mmap_lock_acquire_returned                                   
+             7,315      mmap_lock:mmap_lock_released                                   
+             7,314      mmap_lock:mmap_lock_start_locking                                   
+                 0      module:module_free                                          
+                14      module:module_get                                           
+                 0      module:module_load                                          
+                14      module:module_put                                           
+                 0      module:module_request                                       
+                 0      mptcp:ack_update_msk                                        
+                 0      mptcp:get_mapping_status                                    
+                 0      mptcp:mptcp_sendmsg_frag                                    
+                 0      mptcp:mptcp_subflow_get_send                                   
+                 0      mptcp:subflow_check_data_avail                                   
+                 0      msr:rdpmc                                                   
+           151,903      msr:read_msr                                                
+           102,415      msr:write_msr                                               
+             1,219      napi:napi_poll                                              
+                 0      neigh:neigh_cleanup_and_release                                   
+                 1      neigh:neigh_create                                          
+                 0      neigh:neigh_event_send_dead                                   
+                 1      neigh:neigh_event_send_done                                   
+                 2      neigh:neigh_timer_handler                                   
+                16      neigh:neigh_update                                          
+                16      neigh:neigh_update_done                                     
+                 0      net:napi_gro_frags_entry                                    
+                 0      net:napi_gro_frags_exit                                     
+                98      net:napi_gro_receive_entry                                   
+                98      net:napi_gro_receive_exit                                   
+                26      net:net_dev_queue                                           
+                26      net:net_dev_start_xmit                                      
+                26      net:net_dev_xmit                                            
+                 0      net:net_dev_xmit_timeout                                    
+               106      net:netif_receive_skb                                       
+                 0      net:netif_receive_skb_entry                                   
+                 0      net:netif_receive_skb_exit                                   
+                 0      net:netif_receive_skb_list_entry                                   
+                 0      net:netif_receive_skb_list_exit                                   
+                 8      net:netif_rx                                                
+                 8      net:netif_rx_entry                                          
+                 8      net:netif_rx_exit                                           
+                 0      netlink:netlink_extack                                      
+                 0      nmi:nmi_handler                                             
+                 0      notifier:notifier_register                                   
+            69,580      notifier:notifier_run                                       
+                 0      notifier:notifier_unregister                                   
+                 0      oom:compact_retry                                           
+                 0      oom:finish_task_reaping                                     
+                 0      oom:mark_victim                                             
+                 1      oom:oom_score_adj_update                                    
+                 0      oom:reclaim_retry_zone                                      
+                 0      oom:skip_task_reaping                                       
+                 0      oom:start_task_reaping                                      
+                 0      oom:wake_reaper                                             
+                 0      page_isolation:test_pages_isolated                                   
+                 0      page_pool:page_pool_release                                   
+
+      69.608800882 seconds time elapsed
+

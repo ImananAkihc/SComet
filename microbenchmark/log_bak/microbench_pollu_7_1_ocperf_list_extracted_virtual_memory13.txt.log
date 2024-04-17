@@ -1,0 +1,88 @@
+# started on Wed Jan 31 08:37:33 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      syscalls:sys_enter_io_getevents                                   
+                 0      syscalls:sys_enter_io_pgetevents                                   
+                 0      syscalls:sys_enter_io_setup                                   
+                 0      syscalls:sys_enter_io_submit                                   
+                 0      syscalls:sys_enter_io_uring_enter                                   
+                 0      syscalls:sys_enter_io_uring_register                                   
+                 0      syscalls:sys_enter_io_uring_setup                                   
+               788      syscalls:sys_enter_ioctl                                    
+                 0      syscalls:sys_enter_ioperm                                   
+                 0      syscalls:sys_enter_iopl                                     
+                 0      syscalls:sys_enter_ioprio_get                                   
+                 0      syscalls:sys_enter_ioprio_set                                   
+                 0      syscalls:sys_enter_kcmp                                     
+                 0      syscalls:sys_enter_kexec_load                                   
+                 1      syscalls:sys_enter_keyctl                                   
+                26      syscalls:sys_enter_kill                                     
+                 0      syscalls:sys_enter_lchown                                   
+                 0      syscalls:sys_enter_lgetxattr                                   
+                 0      syscalls:sys_enter_link                                     
+                 0      syscalls:sys_enter_linkat                                   
+                 0      syscalls:sys_enter_listen                                   
+                 0      syscalls:sys_enter_listxattr                                   
+                 0      syscalls:sys_enter_llistxattr                                   
+                 0      syscalls:sys_enter_lremovexattr                                   
+                 4      syscalls:sys_enter_lseek                                    
+                 0      syscalls:sys_enter_lsetxattr                                   
+               114      syscalls:sys_enter_madvise                                   
+                 0      syscalls:sys_enter_mbind                                    
+                 0      syscalls:sys_enter_membarrier                                   
+                 0      syscalls:sys_enter_memfd_create                                   
+                 0      syscalls:sys_enter_memfd_secret                                   
+                 0      syscalls:sys_enter_migrate_pages                                   
+                 0      syscalls:sys_enter_mincore                                   
+                 2      syscalls:sys_enter_mkdir                                    
+                 0      syscalls:sys_enter_mkdirat                                   
+                 0      syscalls:sys_enter_mknod                                    
+                 2      syscalls:sys_enter_mknodat                                   
+                 0      syscalls:sys_enter_mlock                                    
+                 0      syscalls:sys_enter_mlock2                                   
+                 0      syscalls:sys_enter_mlockall                                   
+               509      syscalls:sys_enter_mmap                                     
+                 0      syscalls:sys_enter_modify_ldt                                   
+                 2      syscalls:sys_enter_mount                                    
+                 0      syscalls:sys_enter_mount_setattr                                   
+                 0      syscalls:sys_enter_move_mount                                   
+                 0      syscalls:sys_enter_move_pages                                   
+               155      syscalls:sys_enter_mprotect                                   
+                 0      syscalls:sys_enter_mq_getsetattr                                   
+                 0      syscalls:sys_enter_mq_notify                                   
+                 0      syscalls:sys_enter_mq_open                                   
+                 0      syscalls:sys_enter_mq_timedreceive                                   
+                 0      syscalls:sys_enter_mq_timedsend                                   
+                 0      syscalls:sys_enter_mq_unlink                                   
+                 1      syscalls:sys_enter_mremap                                   
+                 0      syscalls:sys_enter_msgctl                                   
+                 0      syscalls:sys_enter_msgget                                   
+                 0      syscalls:sys_enter_msgrcv                                   
+                 0      syscalls:sys_enter_msgsnd                                   
+                 0      syscalls:sys_enter_msync                                    
+                 0      syscalls:sys_enter_munlock                                   
+                 0      syscalls:sys_enter_munlockall                                   
+               288      syscalls:sys_enter_munmap                                   
+                 0      syscalls:sys_enter_name_to_handle_at                                   
+             1,409      syscalls:sys_enter_nanosleep                                   
+               231      syscalls:sys_enter_newfstat                                   
+               238      syscalls:sys_enter_newfstatat                                   
+                 2      syscalls:sys_enter_newlstat                                   
+               158      syscalls:sys_enter_newstat                                   
+                 3      syscalls:sys_enter_newuname                                   
+               394      syscalls:sys_enter_open                                     
+                 0      syscalls:sys_enter_open_by_handle_at                                   
+                 0      syscalls:sys_enter_open_tree                                   
+               139      syscalls:sys_enter_openat                                   
+                25      syscalls:sys_enter_openat2                                   
+                 0      syscalls:sys_enter_pause                                    
+                 0      syscalls:sys_enter_perf_event_open                                   
+                 0      syscalls:sys_enter_personality                                   
+                 0      syscalls:sys_enter_pidfd_getfd                                   
+                 0      syscalls:sys_enter_pidfd_open                                   
+                 0      syscalls:sys_enter_pidfd_send_signal                                   
+
+      69.869756276 seconds time elapsed
+

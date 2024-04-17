@@ -1,0 +1,50 @@
+# started on Mon Feb  5 03:14:57 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      uncore_iio_free_running_4/util_in_port1/                                   
+                 0      uncore_iio_free_running_4/util_in_port2/                                   
+                 0      uncore_iio_free_running_4/util_in_port3/                                   
+                 0      uncore_iio_free_running_4/util_out_port0/                                   
+                 0      uncore_iio_free_running_4/util_out_port1/                                   
+                 0      uncore_iio_free_running_4/util_out_port2/                                   
+                 0      uncore_iio_free_running_4/util_out_port3/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_in_port0/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_in_port1/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_in_port2/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_in_port3/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_out_port0/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_out_port1/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_out_port2/                                   
+              0.00 MiB  uncore_iio_free_running_5/bw_out_port3/                                   
+                 0      uncore_iio_free_running_5/ioclk/                                   
+                 0      uncore_iio_free_running_5/util_in_port0/                                   
+                 0      uncore_iio_free_running_5/util_in_port1/                                   
+                 0      uncore_iio_free_running_5/util_in_port2/                                   
+                 0      uncore_iio_free_running_5/util_in_port3/                                   
+                 0      uncore_iio_free_running_5/util_out_port0/                                   
+                 0      uncore_iio_free_running_5/util_out_port1/                                   
+                 0      uncore_iio_free_running_5/util_out_port2/                                   
+                 0      uncore_iio_free_running_5/util_out_port3/                                   
+        506,847.22 MiB  uncore_imc_0/cas_count_read/                                   
+        220,452.80 MiB  uncore_imc_0/cas_count_write/                                   
+    83,545,008,680      uncore_imc_0/clockticks/                                    
+              0.00 MiB  uncore_imc_1/cas_count_read/                                   
+              0.00 MiB  uncore_imc_1/cas_count_write/                                   
+    83,543,600,511      uncore_imc_1/clockticks/                                    
+              0.00 MiB  uncore_imc_2/cas_count_read/                                   
+              0.00 MiB  uncore_imc_2/cas_count_write/                                   
+    83,543,497,093      uncore_imc_2/clockticks/                                    
+              0.00 MiB  uncore_imc_3/cas_count_read/                                   
+              0.00 MiB  uncore_imc_3/cas_count_write/                                   
+    83,543,393,058      uncore_imc_3/clockticks/                                    
+              0.00 MiB  uncore_imc_4/cas_count_read/                                   
+              0.00 MiB  uncore_imc_4/cas_count_write/                                   
+    83,543,290,875      uncore_imc_4/clockticks/                                    
+              0.00 MiB  uncore_imc_5/cas_count_read/                                   
+              0.00 MiB  uncore_imc_5/cas_count_write/                                   
+    83,543,195,123      uncore_imc_5/clockticks/                                    
+
+      69.790199791 seconds time elapsed
+

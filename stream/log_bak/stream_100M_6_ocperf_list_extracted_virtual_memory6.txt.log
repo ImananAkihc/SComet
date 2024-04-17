@@ -1,0 +1,88 @@
+# started on Mon Feb  5 12:40:46 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      kvm:kvm_nested_intr_vmexit                                   
+                 0      kvm:kvm_nested_vmenter                                      
+                 0      kvm:kvm_nested_vmenter_failed                                   
+                 0      kvm:kvm_nested_vmexit                                       
+                 0      kvm:kvm_nested_vmexit_inject                                   
+                 0      kvm:kvm_page_fault                                          
+                 0      kvm:kvm_pi_irte_update                                      
+                 0      kvm:kvm_pic_set_irq                                         
+                 0      kvm:kvm_pio                                                 
+                 0      kvm:kvm_ple_window_update                                   
+                 0      kvm:kvm_pml_full                                            
+                 0      kvm:kvm_pv_eoi                                              
+                 0      kvm:kvm_pv_tlb_flush                                        
+                 0      kvm:kvm_pvclock_update                                      
+                 0      kvm:kvm_set_irq                                             
+                 0      kvm:kvm_set_spte_hva                                        
+                 0      kvm:kvm_skinit                                              
+                 0      kvm:kvm_smm_transition                                      
+                 0      kvm:kvm_test_age_hva                                        
+                 0      kvm:kvm_track_tsc                                           
+                 0      kvm:kvm_try_async_get_page                                   
+                 0      kvm:kvm_unmap_hva_range                                     
+                 0      kvm:kvm_update_master_clock                                   
+                 0      kvm:kvm_userspace_exit                                      
+                 0      kvm:kvm_vcpu_wakeup                                         
+                 0      kvm:kvm_vmgexit_enter                                       
+                 0      kvm:kvm_vmgexit_exit                                        
+                 0      kvm:kvm_vmgexit_msr_protocol_enter                                   
+                 0      kvm:kvm_vmgexit_msr_protocol_exit                                   
+                 0      kvm:kvm_wait_lapic_expire                                   
+                 0      kvm:kvm_write_tsc_offset                                    
+                 0      kvm:kvm_xen_hypercall                                       
+                 0      kvm:vcpu_match_mmio                                         
+                 0      kvmmmu:check_mmio_spte                                      
+                 0      kvmmmu:fast_page_fault                                      
+                 0      kvmmmu:handle_mmio_page_fault                                   
+                 0      kvmmmu:kvm_mmu_get_page                                     
+                 0      kvmmmu:kvm_mmu_pagetable_walk                                   
+                 0      kvmmmu:kvm_mmu_paging_element                                   
+                 0      kvmmmu:kvm_mmu_prepare_zap_page                                   
+                 0      kvmmmu:kvm_mmu_set_accessed_bit                                   
+                 0      kvmmmu:kvm_mmu_set_dirty_bit                                   
+                 0      kvmmmu:kvm_mmu_set_spte                                     
+                 0      kvmmmu:kvm_mmu_split_huge_page                                   
+                 0      kvmmmu:kvm_mmu_spte_requested                                   
+                 0      kvmmmu:kvm_mmu_sync_page                                    
+                 0      kvmmmu:kvm_mmu_unsync_page                                   
+                 0      kvmmmu:kvm_mmu_walker_error                                   
+                 0      kvmmmu:kvm_mmu_zap_all_fast                                   
+                 0      kvmmmu:kvm_tdp_mmu_spte_changed                                   
+                 0      kvmmmu:mark_mmio_spte                                       
+                 0      kyber:kyber_adjust                                          
+                 0      kyber:kyber_latency                                         
+                 0      kyber:kyber_throttled                                       
+                 0      libata:ata_bmdma_setup                                      
+                 0      libata:ata_bmdma_start                                      
+                 0      libata:ata_bmdma_status                                     
+                 0      libata:ata_bmdma_stop                                       
+                 0      libata:ata_eh_about_to_do                                   
+                 0      libata:ata_eh_done                                          
+                 0      libata:ata_eh_link_autopsy                                   
+                 0      libata:ata_eh_link_autopsy_qc                                   
+                 0      libata:ata_exec_command                                     
+                 0      libata:ata_link_hardreset_begin                                   
+                 0      libata:ata_link_hardreset_end                                   
+                 0      libata:ata_link_postreset                                   
+                 0      libata:ata_link_softreset_begin                                   
+                 0      libata:ata_link_softreset_end                                   
+                 0      libata:ata_port_freeze                                      
+                 0      libata:ata_port_thaw                                        
+                34      libata:ata_qc_complete_done                                   
+                 0      libata:ata_qc_complete_failed                                   
+                 0      libata:ata_qc_complete_internal                                   
+                34      libata:ata_qc_issue                                         
+                34      libata:ata_qc_prep                                          
+                 0      libata:ata_sff_flush_pio_task                                   
+                 0      libata:ata_sff_hsm_command_complete                                   
+                 0      libata:ata_sff_hsm_state                                    
+                 0      libata:ata_sff_pio_transfer_data                                   
+                 0      libata:ata_sff_port_intr                                    
+
+      69.493233450 seconds time elapsed
+

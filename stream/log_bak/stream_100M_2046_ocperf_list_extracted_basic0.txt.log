@@ -1,0 +1,88 @@
+# started on Mon Feb  5 01:52:18 2024
+
+
+ Performance counter stats for 'system wide':
+
+    29,861,228,112        branch-instructions       #   53.495 M/sec                    (18.87%)
+        18,407,611        branch-misses             #    0.06% of all branches          (16.98%)
+     1,865,664,861        bus-cycles                #    3.342 M/sec                    (16.98%)
+     8,213,107,089        cache-misses              #   96.728 % of all cache refs      (16.98%)
+     8,487,726,400        cache-references          #   15.205 M/sec                    (16.99%)
+   168,996,403,368        cpu-cycles                #    0.303 GHz                      (16.99%)
+   200,933,486,408        instructions              #    1.19  insn per cycle           (18.87%)
+   156,815,604,003        ref-cycles                #  280.927 M/sec                    (20.76%)
+                 0        alignment-faults          #    0.000 K/sec                  
+                 0        bpf-output                #    0.000 K/sec                  
+            20,451        context-switches          #    0.037 K/sec                  
+        558,212.21 msec   cpu-clock                 #    7.999 CPUs utilized          
+               242        cpu-migrations            #    0.000 K/sec                  
+                 0        dummy                     #    0.000 K/sec                  
+                 0        emulation-faults          #    0.000 K/sec                  
+                17        major-faults              #    0.000 K/sec                  
+            19,107        minor-faults              #    0.034 K/sec                  
+            19,097        page-faults               #    0.034 K/sec                  
+        558,202.21 msec   task-clock                #    7.999 CPUs utilized          
+     8,787,283,103        L1-dcache-load-misses     #   17.70% of all L1-dcache hits    (20.76%)
+    49,654,717,311        L1-dcache-loads           #   88.954 M/sec                    (20.76%)
+    28,561,286,616        L1-dcache-stores          #   51.166 M/sec                    (20.76%)
+       164,122,886        L1-icache-load-misses                                         (20.76%)
+       655,974,230        LLC-load-misses           #   97.11% of all LL-cache hits     (20.76%)
+       675,499,937        LLC-loads                 #    1.210 M/sec                    (20.76%)
+     2,366,308,747        LLC-store-misses          #    4.239 M/sec                    (3.77%)
+     2,368,132,590        LLC-stores                #    4.242 M/sec                    (3.77%)
+        19,015,391        branch-load-misses        #    0.034 M/sec                    (5.66%)
+    29,861,537,322        branch-loads              #   53.495 M/sec                    (7.55%)
+           404,964        dTLB-load-misses          #    0.00% of all dTLB cache hits   (9.44%)
+    49,604,463,528        dTLB-loads                #   88.864 M/sec                    (11.32%)
+           340,262        dTLB-store-misses         #    0.610 K/sec                    (13.21%)
+    28,595,034,401        dTLB-stores               #   51.227 M/sec                    (15.10%)
+           178,267        iTLB-load-misses          #    4.64% of all iTLB cache hits   (15.10%)
+         3,845,924        iTLB-loads                #    0.007 M/sec                    (15.10%)
+                 0        node-load-misses          #    0.000 K/sec                    (15.10%)
+       658,343,114        node-loads                #    1.179 M/sec                    (15.10%)
+                 0        node-store-misses         #    0.000 K/sec                    (3.78%)
+     2,360,242,331        node-stores               #    4.228 M/sec                    (3.78%)
+    29,868,885,232        branch-instructions       #   53.509 M/sec                    (5.66%)
+        19,040,200        branch-misses             #    0.06% of all branches          (7.55%)
+     1,868,429,690        bus-cycles                #    3.347 M/sec                    (9.44%)
+     8,214,828,726        cache-misses              #   96.748 % of all cache refs      (11.32%)
+     8,494,201,634        cache-references          #   15.217 M/sec                    (13.21%)
+   168,992,061,312        cpu-cycles                #    0.303 GHz                      (15.10%)
+                 0        cstate_core/c3-residency/ #    0.000 K/sec                  
+                 0        cstate_core/c6-residency/ #    0.000 K/sec                  
+                 0        cstate_core/c7-residency/ #    0.000 K/sec                  
+                 0        cstate_pkg/c2-residency/  #    0.000 K/sec                  
+                 0        cstate_pkg/c3-residency/  #    0.000 K/sec                  
+                 0        cstate_pkg/c6-residency/  #    0.000 K/sec                  
+                 0        cstate_pkg/c7-residency/  #    0.000 K/sec                  
+                 0        cycles-ct                 #    0.000 K/sec                    (16.98%)
+                 0        cycles-t                  #    0.000 K/sec                    (16.98%)
+                 0        el-abort                  #    0.000 K/sec                    (16.98%)
+                 0        el-capacity               #    0.000 K/sec                    (16.98%)
+                 0        el-commit                 #    0.000 K/sec                    (16.98%)
+                 0        el-conflict               #    0.000 K/sec                    (16.98%)
+                 0        el-start                  #    0.000 K/sec                    (16.98%)
+   200,964,901,384        instructions              #    1.19  insn per cycle           (18.86%)
+     <not counted>        intel_pt//                                                    (0.00%)
+                 0        mem-loads                 #    0.000 K/sec                    (18.86%)
+    28,464,656,774        mem-stores                #   50.993 M/sec                    (16.98%)
+   181,935,460,155        msr/aperf/                #  325.928 M/sec                  
+               275 C      msr/cpu_thermal_margin/   #    0.000 K/sec                  
+   185,929,185,576        msr/mperf/                #  333.083 M/sec                  
+   181,930,841,856        msr/pperf/                #  325.920 M/sec                  
+                 0        msr/smi/                  #    0.000 K/sec                  
+ 1,169,259,694,092        msr/tsc/                  # 2094.670 M/sec                  
+          2,367.20 Joules power/energy-pkg/         #    0.004 K/sec                  
+            589.19 Joules power/energy-ram/         #    0.001 K/sec                  
+   156,521,711,129        ref-cycles                #  280.401 M/sec                    (18.86%)
+    30,103,409,581        topdown-fetch-bubbles     #      4.5% frontend bound          (18.86%)
+       811,627,784        topdown-recovery-bubbles  #      0.2% bad speculation         (18.86%)
+   176,703,747,699        topdown-slots-issued      #     69.3% backend bound           (18.86%)
+   176,092,410,351        topdown-slots-retired     #     26.1% retiring                (18.86%)
+   675,403,638,616        topdown-total-slots       # 1209.951 M/sec                    (20.75%)
+                 0        tx-abort                  #    0.000 K/sec                    (20.75%)
+                 0        tx-capacity               #    0.000 K/sec                    (20.75%)
+                 0        tx-commit                 #    0.000 K/sec                    (18.86%)
+
+      69.784447099 seconds time elapsed
+

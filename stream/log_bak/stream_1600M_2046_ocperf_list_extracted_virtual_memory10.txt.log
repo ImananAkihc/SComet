@@ -1,0 +1,88 @@
+# started on Mon Feb  5 15:34:20 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      sunrpc:pmap_register                                        
+                 0      sunrpc:rpc__auth_tooweak                                    
+                 0      sunrpc:rpc__bad_creds                                       
+                 0      sunrpc:rpc__garbage_args                                    
+                 0      sunrpc:rpc__mismatch                                        
+                 0      sunrpc:rpc__proc_unavail                                    
+                 0      sunrpc:rpc__prog_mismatch                                   
+                 0      sunrpc:rpc__prog_unavail                                    
+                 0      sunrpc:rpc__stale_creds                                     
+                 0      sunrpc:rpc__unparsable                                      
+                 0      sunrpc:rpc_bad_callhdr                                      
+                 0      sunrpc:rpc_bad_verifier                                     
+                 0      sunrpc:rpc_buf_alloc                                        
+                 0      sunrpc:rpc_call_rpcerror                                    
+                 0      sunrpc:rpc_call_status                                      
+                 0      sunrpc:rpc_clnt_clone_err                                   
+                 0      sunrpc:rpc_clnt_free                                        
+                 0      sunrpc:rpc_clnt_killall                                     
+                 0      sunrpc:rpc_clnt_new                                         
+                 0      sunrpc:rpc_clnt_new_err                                     
+                 0      sunrpc:rpc_clnt_release                                     
+                 0      sunrpc:rpc_clnt_replace_xprt                                   
+                 0      sunrpc:rpc_clnt_replace_xprt_err                                   
+                 0      sunrpc:rpc_clnt_shutdown                                    
+                 0      sunrpc:rpc_connect_status                                   
+                 0      sunrpc:rpc_refresh_status                                   
+                 0      sunrpc:rpc_request                                          
+                 0      sunrpc:rpc_retry_refresh_status                                   
+                 0      sunrpc:rpc_socket_close                                     
+                 0      sunrpc:rpc_socket_connect                                   
+                 0      sunrpc:rpc_socket_error                                     
+                 0      sunrpc:rpc_socket_nospace                                   
+                 0      sunrpc:rpc_socket_reset_connection                                   
+                 0      sunrpc:rpc_socket_shutdown                                   
+                 0      sunrpc:rpc_socket_state_change                                   
+                 0      sunrpc:rpc_stats_latency                                    
+                 0      sunrpc:rpc_task_begin                                       
+                 0      sunrpc:rpc_task_call_done                                   
+                 0      sunrpc:rpc_task_complete                                    
+                 0      sunrpc:rpc_task_end                                         
+                 0      sunrpc:rpc_task_run_action                                   
+                 0      sunrpc:rpc_task_signalled                                   
+                 0      sunrpc:rpc_task_sleep                                       
+                 0      sunrpc:rpc_task_sync_sleep                                   
+                 0      sunrpc:rpc_task_sync_wake                                   
+                 0      sunrpc:rpc_task_timeout                                     
+                 0      sunrpc:rpc_task_wakeup                                      
+                 0      sunrpc:rpc_timeout_status                                   
+                 0      sunrpc:rpc_xdr_alignment                                    
+                 0      sunrpc:rpc_xdr_overflow                                     
+                 0      sunrpc:rpc_xdr_recvfrom                                     
+                 0      sunrpc:rpc_xdr_reply_pages                                   
+                 0      sunrpc:rpc_xdr_sendto                                       
+                 0      sunrpc:rpcb_bind_version_err                                   
+                 0      sunrpc:rpcb_getport                                         
+                 0      sunrpc:rpcb_prog_unavail_err                                   
+                 0      sunrpc:rpcb_register                                        
+                 0      sunrpc:rpcb_setport                                         
+                 0      sunrpc:rpcb_timeout_err                                     
+                 0      sunrpc:rpcb_unreachable_err                                   
+                 0      sunrpc:rpcb_unrecognized_err                                   
+                 0      sunrpc:rpcb_unregister                                      
+                 0      sunrpc:svc_alloc_arg_err                                    
+                 0      sunrpc:svc_authenticate                                     
+                 0      sunrpc:svc_defer                                            
+                 0      sunrpc:svc_defer_drop                                       
+                 0      sunrpc:svc_defer_queue                                      
+                 0      sunrpc:svc_defer_recv                                       
+                 0      sunrpc:svc_drop                                             
+                 0      sunrpc:svc_noregister                                       
+                 0      sunrpc:svc_process                                          
+                 0      sunrpc:svc_register                                         
+                 0      sunrpc:svc_replace_page_err                                   
+                 0      sunrpc:svc_send                                             
+                 0      sunrpc:svc_stats_latency                                    
+                 0      sunrpc:svc_tls_not_started                                   
+                 0      sunrpc:svc_tls_start                                        
+                 0      sunrpc:svc_tls_timed_out                                    
+                 0      sunrpc:svc_tls_unavailable                                   
+                 0      sunrpc:svc_tls_upcall                                       
+
+      69.700216552 seconds time elapsed
+

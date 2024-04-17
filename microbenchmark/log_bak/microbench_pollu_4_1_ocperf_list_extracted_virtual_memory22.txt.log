@@ -1,0 +1,88 @@
+# started on Wed Jan 31 17:03:30 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      xen:xen_mmu_write_cr3                                       
+                39      xfs:kmem_alloc                                              
+                 0      xfs:xfs_ag_mark_healthy                                     
+                 0      xfs:xfs_ag_mark_sick                                        
+                 8      xfs:xfs_ag_resv_alloc_extent                                   
+                 0      xfs:xfs_ag_resv_critical                                    
+                 0      xfs:xfs_ag_resv_free                                        
+                 0      xfs:xfs_ag_resv_free_error                                   
+                 6      xfs:xfs_ag_resv_free_extent                                   
+                 0      xfs:xfs_ag_resv_init                                        
+                 0      xfs:xfs_ag_resv_init_error                                   
+                24      xfs:xfs_ag_resv_needed                                      
+                 0      xfs:xfs_ag_unfixed_corruption                                   
+                14      xfs:xfs_agf                                                 
+                 0      xfs:xfs_agfl_free_defer                                     
+                 0      xfs:xfs_agfl_free_deferred                                   
+                 0      xfs:xfs_agfl_reset                                          
+               150      xfs:xfs_ail_delete                                          
+                59      xfs:xfs_ail_flushing                                        
+                41      xfs:xfs_ail_insert                                          
+                 0      xfs:xfs_ail_locked                                          
+                57      xfs:xfs_ail_move                                            
+                30      xfs:xfs_ail_pinned                                          
+                91      xfs:xfs_ail_push                                            
+                 8      xfs:xfs_alloc_cur                                           
+             3,197      xfs:xfs_alloc_cur_check                                     
+                 0      xfs:xfs_alloc_cur_left                                      
+                 1      xfs:xfs_alloc_cur_lookup                                    
+                 0      xfs:xfs_alloc_cur_lookup_done                                   
+                 1      xfs:xfs_alloc_cur_right                                     
+                 0      xfs:xfs_alloc_exact_done                                    
+                 0      xfs:xfs_alloc_exact_error                                   
+                 0      xfs:xfs_alloc_exact_notfound                                   
+                 0      xfs:xfs_alloc_file_space                                    
+                 0      xfs:xfs_alloc_near_busy                                     
+                 0      xfs:xfs_alloc_near_error                                    
+                 7      xfs:xfs_alloc_near_first                                    
+                 0      xfs:xfs_alloc_near_noentry                                   
+                 0      xfs:xfs_alloc_near_nominleft                                   
+                14      xfs:xfs_alloc_read_agf                                      
+                 0      xfs:xfs_alloc_size_busy                                     
+                 0      xfs:xfs_alloc_size_done                                     
+                 0      xfs:xfs_alloc_size_error                                    
+                 0      xfs:xfs_alloc_size_neither                                   
+                 0      xfs:xfs_alloc_size_noentry                                   
+                 0      xfs:xfs_alloc_size_nominleft                                   
+                 0      xfs:xfs_alloc_small_done                                    
+                 0      xfs:xfs_alloc_small_error                                   
+                 0      xfs:xfs_alloc_small_freelist                                   
+                 0      xfs:xfs_alloc_small_notenough                                   
+                 0      xfs:xfs_alloc_vextent_allfailed                                   
+                 0      xfs:xfs_alloc_vextent_badargs                                   
+                 0      xfs:xfs_alloc_vextent_exact_bno                                   
+                 8      xfs:xfs_alloc_vextent_finish                                   
+                 0      xfs:xfs_alloc_vextent_first_ag                                   
+                 0      xfs:xfs_alloc_vextent_loopfailed                                   
+                 0      xfs:xfs_alloc_vextent_near_bno                                   
+                 0      xfs:xfs_alloc_vextent_noagbp                                   
+                 0      xfs:xfs_alloc_vextent_nofix                                   
+                 0      xfs:xfs_alloc_vextent_skip_deadlock                                   
+                 8      xfs:xfs_alloc_vextent_start_ag                                   
+                 0      xfs:xfs_alloc_vextent_this_ag                                   
+                 5      xfs:xfs_attr_defer_add                                      
+                 0      xfs:xfs_attr_defer_remove                                   
+                 0      xfs:xfs_attr_defer_replace                                   
+                 0      xfs:xfs_attr_fillstate                                      
+                 0      xfs:xfs_attr_leaf_add                                       
+                 0      xfs:xfs_attr_leaf_add_new                                   
+                 0      xfs:xfs_attr_leaf_add_old                                   
+                 0      xfs:xfs_attr_leaf_add_work                                   
+                 0      xfs:xfs_attr_leaf_addname_return                                   
+                 0      xfs:xfs_attr_leaf_clearflag                                   
+                 0      xfs:xfs_attr_leaf_compact                                   
+                 0      xfs:xfs_attr_leaf_create                                    
+                 0      xfs:xfs_attr_leaf_flipflags                                   
+                 0      xfs:xfs_attr_leaf_get                                       
+                 0      xfs:xfs_attr_leaf_list                                      
+                 0      xfs:xfs_attr_leaf_lookup                                    
+                 0      xfs:xfs_attr_leaf_rebalance                                   
+                 0      xfs:xfs_attr_leaf_remove                                    
+
+      69.538719688 seconds time elapsed
+

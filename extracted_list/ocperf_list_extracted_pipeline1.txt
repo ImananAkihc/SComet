@@ -1,0 +1,11 @@
+uops_executed.cycles_ge_4_uops_exec
+uops_executed.stall_cycles
+uops_executed.thread
+uops_executed.x87
+uops_issued.any
+uops_issued.slow_lea
+uops_issued.stall_cycles
+uops_issued.vector_width_mismatch
+uops_retired.retire_slots
+uops_retired.stall_cycles
+uops_retired.total_cycles

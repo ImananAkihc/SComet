@@ -1,0 +1,88 @@
+# started on Mon Feb  5 10:42:45 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      filelock:break_lease_block                                   
+                 0      filelock:break_lease_noblock                                   
+                 0      filelock:break_lease_unblock                                   
+                 0      filelock:fcntl_setlk                                        
+                 0      filelock:flock_lock_inode                                   
+                 0      filelock:generic_add_lease                                   
+                 0      filelock:generic_delete_lease                                   
+                 0      filelock:leases_conflict                                    
+                 0      filelock:locks_get_lock_context                                   
+                 0      filelock:locks_remove_posix                                   
+                 0      filelock:posix_lock_inode                                   
+                 0      filelock:time_out_leases                                    
+                 0      filemap:file_check_and_advance_wb_err                                   
+                 0      filemap:filemap_set_wb_err                                   
+                 5      filemap:mm_filemap_add_to_page_cache                                   
+                 5      filemap:mm_filemap_delete_from_page_cache                                   
+                 0      fs_dax:dax_insert_mapping                                   
+                 0      fs_dax:dax_insert_pfn_mkwrite                                   
+                 0      fs_dax:dax_insert_pfn_mkwrite_no_entry                                   
+                 0      fs_dax:dax_load_hole                                        
+                 0      fs_dax:dax_pmd_fault                                        
+                 0      fs_dax:dax_pmd_fault_done                                   
+                 0      fs_dax:dax_pmd_insert_mapping                                   
+                 0      fs_dax:dax_pmd_load_hole                                    
+                 0      fs_dax:dax_pmd_load_hole_fallback                                   
+                 0      fs_dax:dax_pte_fault                                        
+                 0      fs_dax:dax_pte_fault_done                                   
+                 0      fs_dax:dax_writeback_one                                    
+                 0      fs_dax:dax_writeback_range                                   
+                 0      fs_dax:dax_writeback_range_done                                   
+        78,270,496      ftrace:function                                             
+                 0      ftrace:print                                                
+                 0      gpio:gpio_direction                                         
+                 0      gpio:gpio_value                                             
+                 0      handshake:handshake_cancel                                   
+                 0      handshake:handshake_cancel_busy                                   
+                 0      handshake:handshake_cancel_none                                   
+                 0      handshake:handshake_cmd_accept                                   
+                 0      handshake:handshake_cmd_accept_err                                   
+                 0      handshake:handshake_cmd_done                                   
+                 0      handshake:handshake_cmd_done_err                                   
+                 0      handshake:handshake_complete                                   
+                 0      handshake:handshake_destruct                                   
+                 0      handshake:handshake_notify_err                                   
+                 0      handshake:handshake_submit                                   
+                 0      handshake:handshake_submit_err                                   
+                 4      huge_memory:mm_collapse_huge_page                                   
+                 4      huge_memory:mm_collapse_huge_page_isolate                                   
+                 0      huge_memory:mm_collapse_huge_page_swapin                                   
+                 0      huge_memory:mm_khugepaged_collapse_file                                   
+                 0      huge_memory:mm_khugepaged_scan_file                                   
+                56      huge_memory:mm_khugepaged_scan_pmd                                   
+                 0      hwmon:hwmon_attr_show                                       
+                 0      hwmon:hwmon_attr_show_string                                   
+                 0      hwmon:hwmon_attr_store                                      
+                 0      hyperv:hyperv_mmu_flush_tlb_multi                                   
+                 0      hyperv:hyperv_nested_flush_guest_mapping                                   
+                 0      hyperv:hyperv_nested_flush_guest_mapping_range                                   
+                 0      hyperv:hyperv_send_ipi_mask                                   
+                 0      hyperv:hyperv_send_ipi_one                                   
+                 0      i2c:i2c_read                                                
+                 0      i2c:i2c_reply                                               
+                 0      i2c:i2c_result                                              
+                 0      i2c:i2c_write                                               
+                 0      i2c_slave:i2c_slave                                         
+                 0      initcall:initcall_finish                                    
+                 0      initcall:initcall_level                                     
+                 0      initcall:initcall_start                                     
+                 0      intel_iommu:prq_report                                      
+                 4      intel_iommu:qi_submit                                       
+                 0      io_uring:io_uring_complete                                   
+                 0      io_uring:io_uring_cqe_overflow                                   
+                 0      io_uring:io_uring_cqring_wait                                   
+                 0      io_uring:io_uring_create                                    
+                 0      io_uring:io_uring_defer                                     
+                 0      io_uring:io_uring_fail_link                                   
+                 0      io_uring:io_uring_file_get                                   
+                 0      io_uring:io_uring_link                                      
+                 0      io_uring:io_uring_local_work_run                                   
+                 0      io_uring:io_uring_poll_arm                                   
+
+      71.071777717 seconds time elapsed
+

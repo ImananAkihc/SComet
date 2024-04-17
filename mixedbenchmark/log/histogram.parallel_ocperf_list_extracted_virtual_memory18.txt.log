@@ -1,0 +1,88 @@
+# started on Sun Jan 21 02:19:57 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      syscalls:sys_exit_munlock                                   
+                 0      syscalls:sys_exit_munlockall                                   
+               996      syscalls:sys_exit_munmap                                    
+                 0      syscalls:sys_exit_name_to_handle_at                                   
+            36,156      syscalls:sys_exit_nanosleep                                   
+             7,324      syscalls:sys_exit_newfstat                                   
+               253      syscalls:sys_exit_newfstatat                                   
+            31,800      syscalls:sys_exit_newlstat                                   
+             1,863      syscalls:sys_exit_newstat                                   
+                32      syscalls:sys_exit_newuname                                   
+             8,259      syscalls:sys_exit_open                                      
+                 0      syscalls:sys_exit_open_by_handle_at                                   
+                 0      syscalls:sys_exit_open_tree                                   
+               188      syscalls:sys_exit_openat                                    
+                25      syscalls:sys_exit_openat2                                   
+                 0      syscalls:sys_exit_pause                                     
+                 0      syscalls:sys_exit_perf_event_open                                   
+                 0      syscalls:sys_exit_personality                                   
+                 0      syscalls:sys_exit_pidfd_getfd                                   
+                 0      syscalls:sys_exit_pidfd_open                                   
+                 0      syscalls:sys_exit_pidfd_send_signal                                   
+                22      syscalls:sys_exit_pipe                                      
+                52      syscalls:sys_exit_pipe2                                     
+                 0      syscalls:sys_exit_pivot_root                                   
+                 0      syscalls:sys_exit_pkey_alloc                                   
+                 0      syscalls:sys_exit_pkey_free                                   
+                 0      syscalls:sys_exit_pkey_mprotect                                   
+                88      syscalls:sys_exit_poll                                      
+               334      syscalls:sys_exit_ppoll                                     
+                54      syscalls:sys_exit_prctl                                     
+                41      syscalls:sys_exit_pread64                                   
+                 0      syscalls:sys_exit_preadv                                    
+                 0      syscalls:sys_exit_preadv2                                   
+                 0      syscalls:sys_exit_prlimit64                                   
+                 0      syscalls:sys_exit_process_madvise                                   
+                 0      syscalls:sys_exit_process_mrelease                                   
+                 0      syscalls:sys_exit_process_vm_readv                                   
+                 0      syscalls:sys_exit_process_vm_writev                                   
+                 0      syscalls:sys_exit_pselect6                                   
+                 0      syscalls:sys_exit_ptrace                                    
+                 2      syscalls:sys_exit_pwrite64                                   
+                 0      syscalls:sys_exit_pwritev                                   
+                 0      syscalls:sys_exit_pwritev2                                   
+                 0      syscalls:sys_exit_quotactl                                   
+                 0      syscalls:sys_exit_quotactl_fd                                   
+            10,078      syscalls:sys_exit_read                                      
+                 0      syscalls:sys_exit_readahead                                   
+                79      syscalls:sys_exit_readlink                                   
+                47      syscalls:sys_exit_readlinkat                                   
+                 0      syscalls:sys_exit_readv                                     
+                 0      syscalls:sys_exit_reboot                                    
+                 0      syscalls:sys_exit_recvfrom                                   
+                 4      syscalls:sys_exit_recvmmsg                                   
+               137      syscalls:sys_exit_recvmsg                                   
+                 0      syscalls:sys_exit_remap_file_pages                                   
+                 0      syscalls:sys_exit_removexattr                                   
+                13      syscalls:sys_exit_rename                                    
+                 5      syscalls:sys_exit_renameat                                   
+                 0      syscalls:sys_exit_renameat2                                   
+                 0      syscalls:sys_exit_request_key                                   
+                 0      syscalls:sys_exit_restart_syscall                                   
+                 0      syscalls:sys_exit_rmdir                                     
+                 0      syscalls:sys_exit_rseq                                      
+             1,477      syscalls:sys_exit_rt_sigaction                                   
+                 0      syscalls:sys_exit_rt_sigpending                                   
+               479      syscalls:sys_exit_rt_sigprocmask                                   
+                 0      syscalls:sys_exit_rt_sigqueueinfo                                   
+                 0      syscalls:sys_exit_rt_sigreturn                                   
+                 0      syscalls:sys_exit_rt_sigsuspend                                   
+                 0      syscalls:sys_exit_rt_sigtimedwait                                   
+                 0      syscalls:sys_exit_rt_tgsigqueueinfo                                   
+                 0      syscalls:sys_exit_sched_get_priority_max                                   
+                 0      syscalls:sys_exit_sched_get_priority_min                                   
+                22      syscalls:sys_exit_sched_getaffinity                                   
+                 0      syscalls:sys_exit_sched_getattr                                   
+                 0      syscalls:sys_exit_sched_getparam                                   
+                 0      syscalls:sys_exit_sched_getscheduler                                   
+                 0      syscalls:sys_exit_sched_rr_get_interval                                   
+                 0      syscalls:sys_exit_sched_setaffinity                                   
+                 0      syscalls:sys_exit_sched_setattr                                   
+
+      39.867594794 seconds time elapsed
+

@@ -1,0 +1,88 @@
+# started on Tue Feb  6 05:10:13 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      xfs:xfs_trans_mod_dquot_before                                   
+               102      xfs:xfs_trans_read_buf                                      
+                25      xfs:xfs_trans_read_buf_recur                                   
+                 0      xfs:xfs_trans_read_buf_shut                                   
+                 0      xfs:xfs_trans_resv_calc                                     
+                 0      xfs:xfs_trans_resv_calc_minlogsize                                   
+                 9      xfs:xfs_trans_roll                                          
+                 8      xfs:xfs_unwritten_convert                                   
+                 3      xfs:xfs_update_time                                         
+                 0      xfs:xfs_vm_bmap                                             
+                 0      xfs:xfs_wb_cow_iomap_invalid                                   
+                 0      xfs:xfs_wb_data_iomap_invalid                                   
+                54      xfs:xfs_write_extent                                        
+                 0      xfs:xfs_zero_eof                                            
+                 0      xfs:xfs_zero_file_space                                     
+                 6      xfs:xlog_iclog_activate                                     
+                 6      xfs:xlog_iclog_callback                                     
+                 6      xfs:xlog_iclog_callbacks_done                                   
+                 6      xfs:xlog_iclog_callbacks_start                                   
+                 6      xfs:xlog_iclog_clean                                        
+                 7      xfs:xlog_iclog_force                                        
+                 0      xfs:xlog_iclog_force_lsn                                    
+                12      xfs:xlog_iclog_get_space                                    
+                24      xfs:xlog_iclog_release                                      
+                 6      xfs:xlog_iclog_switch                                       
+                 6      xfs:xlog_iclog_sync                                         
+                 6      xfs:xlog_iclog_sync_done                                    
+                 6      xfs:xlog_iclog_syncing                                      
+                 4      xfs:xlog_iclog_wait_on                                      
+                 0      xfs:xlog_iclog_want_sync                                    
+                 6      xfs:xlog_iclog_write                                        
+                 0      xfs:xlog_intent_recovery_failed                                   
+                 0      xhci-hcd:xhci_add_endpoint                                   
+                 0      xhci-hcd:xhci_address_ctrl_ctx                                   
+                 0      xhci-hcd:xhci_address_ctx                                   
+                 0      xhci-hcd:xhci_alloc_dev                                     
+                 0      xhci-hcd:xhci_alloc_virt_device                                   
+                 0      xhci-hcd:xhci_configure_endpoint                                   
+                 0      xhci-hcd:xhci_configure_endpoint_ctrl_ctx                                   
+                 0      xhci-hcd:xhci_dbc_alloc_request                                   
+                 0      xhci-hcd:xhci_dbc_free_request                                   
+                 0      xhci-hcd:xhci_dbc_gadget_ep_queue                                   
+                 0      xhci-hcd:xhci_dbc_giveback_request                                   
+                 0      xhci-hcd:xhci_dbc_handle_event                                   
+                 0      xhci-hcd:xhci_dbc_handle_transfer                                   
+                 0      xhci-hcd:xhci_dbc_queue_request                                   
+                 0      xhci-hcd:xhci_dbg_address                                   
+                 0      xhci-hcd:xhci_dbg_cancel_urb                                   
+                 0      xhci-hcd:xhci_dbg_context_change                                   
+                 0      xhci-hcd:xhci_dbg_init                                      
+                 0      xhci-hcd:xhci_dbg_quirks                                    
+                 0      xhci-hcd:xhci_dbg_reset_ep                                   
+                 0      xhci-hcd:xhci_dbg_ring_expansion                                   
+                 0      xhci-hcd:xhci_discover_or_reset_device                                   
+                 0      xhci-hcd:xhci_free_dev                                      
+                 0      xhci-hcd:xhci_free_virt_device                                   
+                 0      xhci-hcd:xhci_get_port_status                                   
+                 0      xhci-hcd:xhci_handle_cmd_addr_dev                                   
+                 0      xhci-hcd:xhci_handle_cmd_config_ep                                   
+                 0      xhci-hcd:xhci_handle_cmd_disable_slot                                   
+                 0      xhci-hcd:xhci_handle_cmd_reset_dev                                   
+                 0      xhci-hcd:xhci_handle_cmd_reset_ep                                   
+                 0      xhci-hcd:xhci_handle_cmd_set_deq                                   
+                 0      xhci-hcd:xhci_handle_cmd_set_deq_ep                                   
+                 0      xhci-hcd:xhci_handle_cmd_stop_ep                                   
+                 0      xhci-hcd:xhci_handle_command                                   
+                 0      xhci-hcd:xhci_handle_event                                   
+                 0      xhci-hcd:xhci_handle_port_status                                   
+                 0      xhci-hcd:xhci_handle_transfer                                   
+                 0      xhci-hcd:xhci_hub_status_data                                   
+                 0      xhci-hcd:xhci_inc_deq                                       
+                 0      xhci-hcd:xhci_inc_enq                                       
+                 0      xhci-hcd:xhci_queue_trb                                     
+                 0      xhci-hcd:xhci_ring_alloc                                    
+                 0      xhci-hcd:xhci_ring_ep_doorbell                                   
+                 0      xhci-hcd:xhci_ring_expansion                                   
+                 0      xhci-hcd:xhci_ring_free                                     
+                 0      xhci-hcd:xhci_ring_host_doorbell                                   
+                 0      xhci-hcd:xhci_setup_addressable_virt_device                                   
+                 0      xhci-hcd:xhci_setup_device                                   
+
+      69.505251389 seconds time elapsed
+

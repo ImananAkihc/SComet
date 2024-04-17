@@ -1,0 +1,4 @@
+sdt_rtld:reloc_start
+sdt_rtld:setjmp
+sdt_rtld:unmap_complete
+sdt_rtld:unmap_start

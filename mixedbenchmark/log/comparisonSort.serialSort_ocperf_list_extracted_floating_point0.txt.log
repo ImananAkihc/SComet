@@ -1,0 +1,17 @@
+# started on Sat Jan 20 16:06:06 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      r4c7                                                          (88.46%)
+                 0      r8c7                                                          (88.45%)
+                 0      r10c7                                                         (88.45%)
+                 0      r20c7                                                         (88.78%)
+                 0      r40c7                                                         (89.33%)
+                 0      r80c7                                                         (89.32%)
+             1,086      r1c7                                                          (89.32%)
+                 0      r2c7                                                          (89.30%)
+                 0      r1001eca                                                      (89.11%)
+
+       0.113164356 seconds time elapsed
+

@@ -1,0 +1,44 @@
+# started on Thu Feb  1 09:14:05 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      unc_upi_direct_attempts_d2u_0                                     (22.21%)
+                 0      unc_upi_direct_attempts_d2u_1                                     (22.21%)
+    82,418,796,685      unc_upi_l1_power_cycles_0                                     (22.22%)
+    82,605,622,909      unc_upi_l1_power_cycles_1                                     (22.22%)
+                 0      unc_upi_rxl0p_power_cycles_0                                     (22.23%)
+                 0      unc_upi_rxl0p_power_cycles_1                                     (22.23%)
+                 0      unc_upi_rxl_bypassed_slot0_0                                     (22.24%)
+                 0      unc_upi_rxl_bypassed_slot0_1                                     (22.24%)
+                 0      unc_upi_rxl_bypassed_slot1_0                                     (22.23%)
+                 0      unc_upi_rxl_bypassed_slot1_1                                     (22.23%)
+                 0      unc_upi_rxl_bypassed_slot2_0                                     (22.22%)
+                 0      unc_upi_rxl_bypassed_slot2_1                                     (22.23%)
+                 0      unc_upi_rxl_flits_all_data_0                                     (22.22%)
+                 0      unc_upi_rxl_flits_all_data_1                                     (22.22%)
+                 0      unc_upi_rxl_flits_all_null_0                                     (22.21%)
+                 0      unc_upi_rxl_flits_all_null_1                                     (22.21%)
+                 0      unc_upi_rxl_flits_non_data_0                                     (22.22%)
+                 0      unc_upi_rxl_flits_non_data_1                                     (22.22%)
+                 0      unc_upi_rxl_flits_null_0                                      (22.22%)
+                 0      unc_upi_rxl_flits_null_1                                      (22.21%)
+                 0      unc_upi_txl0p_power_cycles_0                                     (22.22%)
+                 0      unc_upi_txl0p_power_cycles_1                                     (22.22%)
+                 0      unc_upi_txl_bypassed_0                                        (22.23%)
+                 0      unc_upi_txl_bypassed_1                                        (22.23%)
+                 0      unc_upi_txl_flits_all_data_0                                     (22.23%)
+                 0      unc_upi_txl_flits_all_data_1                                     (22.23%)
+                 0      unc_upi_txl_flits_all_null_0                                     (22.23%)
+                 0      unc_upi_txl_flits_all_null_1                                     (22.23%)
+                 0      unc_upi_txl_flits_data_0                                      (22.22%)
+                 0      unc_upi_txl_flits_data_1                                      (22.22%)
+                 0      unc_upi_txl_flits_idle_0                                      (22.22%)
+                 0      unc_upi_txl_flits_idle_1                                      (22.22%)
+                 0      unc_upi_txl_flits_non_data_0                                     (22.21%)
+                 0      unc_upi_txl_flits_non_data_1                                     (22.21%)
+                 0      unc_upi_txl_flits_null_0                                      (22.21%)
+                 0      unc_upi_txl_flits_null_1                                      (22.21%)
+
+      69.896079898 seconds time elapsed
+

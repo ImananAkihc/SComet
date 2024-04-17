@@ -1,0 +1,88 @@
+# started on Tue Jan 30 11:56:05 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      tx-conflict                                                 
+                 0      tx-start                                                    
+              0.00 MiB  uncore_iio_free_running_0/bw_in_port0/                                   
+              0.18 MiB  uncore_iio_free_running_0/bw_in_port1/                                   
+              0.00 MiB  uncore_iio_free_running_0/bw_in_port2/                                   
+              0.00 MiB  uncore_iio_free_running_0/bw_in_port3/                                   
+              0.00 MiB  uncore_iio_free_running_0/bw_out_port0/                                   
+              0.67 MiB  uncore_iio_free_running_0/bw_out_port1/                                   
+              0.00 MiB  uncore_iio_free_running_0/bw_out_port2/                                   
+              0.00 MiB  uncore_iio_free_running_0/bw_out_port3/                                   
+    34,832,634,204      uncore_iio_free_running_0/ioclk/                                   
+        11,959,462      uncore_iio_free_running_0/util_in_port0/                                   
+    34,832,608,306      uncore_iio_free_running_0/util_in_port1/                                   
+    34,832,593,236      uncore_iio_free_running_0/util_in_port2/                                   
+    34,832,579,007      uncore_iio_free_running_0/util_in_port3/                                   
+        99,300,064      uncore_iio_free_running_0/util_out_port0/                                   
+    34,832,550,207      uncore_iio_free_running_0/util_out_port1/                                   
+    34,832,531,938      uncore_iio_free_running_0/util_out_port2/                                   
+    34,832,522,326      uncore_iio_free_running_0/util_out_port3/                                   
+              0.00 MiB  uncore_iio_free_running_1/bw_in_port0/                                   
+              0.00 MiB  uncore_iio_free_running_1/bw_in_port1/                                   
+              0.12 MiB  uncore_iio_free_running_1/bw_in_port2/                                   
+              0.00 MiB  uncore_iio_free_running_1/bw_in_port3/                                   
+              1.68 MiB  uncore_iio_free_running_1/bw_out_port0/                                   
+              0.00 MiB  uncore_iio_free_running_1/bw_out_port1/                                   
+              0.04 MiB  uncore_iio_free_running_1/bw_out_port2/                                   
+              0.00 MiB  uncore_iio_free_running_1/bw_out_port3/                                   
+    34,832,557,064      uncore_iio_free_running_1/ioclk/                                   
+         6,782,504      uncore_iio_free_running_1/util_in_port0/                                   
+         6,782,496      uncore_iio_free_running_1/util_in_port1/                                   
+        20,009,392      uncore_iio_free_running_1/util_in_port2/                                   
+        19,557,642      uncore_iio_free_running_1/util_in_port3/                                   
+        39,778,326      uncore_iio_free_running_1/util_out_port0/                                   
+        39,666,277      uncore_iio_free_running_1/util_out_port1/                                   
+        78,498,722      uncore_iio_free_running_1/util_out_port2/                                   
+        78,498,690      uncore_iio_free_running_1/util_out_port3/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_in_port0/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_in_port1/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_in_port2/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_in_port3/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_out_port0/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_out_port1/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_out_port2/                                   
+              0.00 MiB  uncore_iio_free_running_2/bw_out_port3/                                   
+    34,832,288,851      uncore_iio_free_running_2/ioclk/                                   
+    34,832,259,748      uncore_iio_free_running_2/util_in_port0/                                   
+    34,832,230,768      uncore_iio_free_running_2/util_in_port1/                                   
+    34,832,201,888      uncore_iio_free_running_2/util_in_port2/                                   
+    34,832,173,425      uncore_iio_free_running_2/util_in_port3/                                   
+    34,832,142,162      uncore_iio_free_running_2/util_out_port0/                                   
+    34,832,111,347      uncore_iio_free_running_2/util_out_port1/                                   
+    34,832,080,936      uncore_iio_free_running_2/util_out_port2/                                   
+    34,832,052,212      uncore_iio_free_running_2/util_out_port3/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_in_port0/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_in_port1/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_in_port2/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_in_port3/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_out_port0/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_out_port1/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_out_port2/                                   
+              0.00 MiB  uncore_iio_free_running_3/bw_out_port3/                                   
+    34,831,829,788      uncore_iio_free_running_3/ioclk/                                   
+    34,831,792,790      uncore_iio_free_running_3/util_in_port0/                                   
+    34,831,758,987      uncore_iio_free_running_3/util_in_port1/                                   
+    34,831,723,338      uncore_iio_free_running_3/util_in_port2/                                   
+    34,831,682,112      uncore_iio_free_running_3/util_in_port3/                                   
+    34,831,643,546      uncore_iio_free_running_3/util_out_port0/                                   
+    34,831,605,458      uncore_iio_free_running_3/util_out_port1/                                   
+    34,831,568,197      uncore_iio_free_running_3/util_out_port2/                                   
+    34,831,529,854      uncore_iio_free_running_3/util_out_port3/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_in_port0/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_in_port1/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_in_port2/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_in_port3/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_out_port0/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_out_port1/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_out_port2/                                   
+              0.00 MiB  uncore_iio_free_running_4/bw_out_port3/                                   
+                 0      uncore_iio_free_running_4/ioclk/                                   
+                 0      uncore_iio_free_running_4/util_in_port0/                                   
+
+      69.835850864 seconds time elapsed
+

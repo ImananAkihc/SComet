@@ -1,0 +1,88 @@
+# started on Wed Jan 31 10:53:12 2024
+
+
+ Performance counter stats for 'system wide':
+
+                48      syscalls:sys_exit_brk                                       
+                 7      syscalls:sys_exit_capget                                    
+                 1      syscalls:sys_exit_capset                                    
+                 3      syscalls:sys_exit_chdir                                     
+                 0      syscalls:sys_exit_chmod                                     
+                 0      syscalls:sys_exit_chown                                     
+                 0      syscalls:sys_exit_chroot                                    
+                 0      syscalls:sys_exit_clock_adjtime                                   
+                 0      syscalls:sys_exit_clock_getres                                   
+                 0      syscalls:sys_exit_clock_gettime                                   
+                 0      syscalls:sys_exit_clock_nanosleep                                   
+                 0      syscalls:sys_exit_clock_settime                                   
+               204      syscalls:sys_exit_clone                                     
+                 0      syscalls:sys_exit_clone3                                    
+               642      syscalls:sys_exit_close                                     
+                 0      syscalls:sys_exit_close_range                                   
+                10      syscalls:sys_exit_connect                                   
+                 0      syscalls:sys_exit_copy_file_range                                   
+                 0      syscalls:sys_exit_creat                                     
+                 0      syscalls:sys_exit_delete_module                                   
+                 0      syscalls:sys_exit_dup                                       
+                 3      syscalls:sys_exit_dup2                                      
+                11      syscalls:sys_exit_dup3                                      
+                 0      syscalls:sys_exit_epoll_create                                   
+                 6      syscalls:sys_exit_epoll_create1                                   
+               111      syscalls:sys_exit_epoll_ctl                                   
+               889      syscalls:sys_exit_epoll_pwait                                   
+                 0      syscalls:sys_exit_epoll_pwait2                                   
+               115      syscalls:sys_exit_epoll_wait                                   
+                 0      syscalls:sys_exit_eventfd                                   
+                 0      syscalls:sys_exit_eventfd2                                   
+                11      syscalls:sys_exit_execve                                    
+                 0      syscalls:sys_exit_execveat                                   
+                 0      syscalls:sys_exit_exit                                      
+                 0      syscalls:sys_exit_exit_group                                   
+                 0      syscalls:sys_exit_faccessat                                   
+                10      syscalls:sys_exit_faccessat2                                   
+                 0      syscalls:sys_exit_fadvise64                                   
+                 0      syscalls:sys_exit_fallocate                                   
+                 0      syscalls:sys_exit_fanotify_init                                   
+                 0      syscalls:sys_exit_fanotify_mark                                   
+                 0      syscalls:sys_exit_fchdir                                    
+                 0      syscalls:sys_exit_fchmod                                    
+                 4      syscalls:sys_exit_fchmodat                                   
+                 2      syscalls:sys_exit_fchown                                    
+                 0      syscalls:sys_exit_fchownat                                   
+               420      syscalls:sys_exit_fcntl                                     
+                 2      syscalls:sys_exit_fdatasync                                   
+                 0      syscalls:sys_exit_fgetxattr                                   
+                 0      syscalls:sys_exit_finit_module                                   
+                 0      syscalls:sys_exit_flistxattr                                   
+                 0      syscalls:sys_exit_flock                                     
+                 0      syscalls:sys_exit_fork                                      
+                 0      syscalls:sys_exit_fremovexattr                                   
+                 0      syscalls:sys_exit_fsconfig                                   
+                 0      syscalls:sys_exit_fsetxattr                                   
+                 0      syscalls:sys_exit_fsmount                                   
+                 0      syscalls:sys_exit_fsopen                                    
+                 0      syscalls:sys_exit_fspick                                    
+                 6      syscalls:sys_exit_fstatfs                                   
+                 4      syscalls:sys_exit_fsync                                     
+                 1      syscalls:sys_exit_ftruncate                                   
+             1,748      syscalls:sys_exit_futex                                     
+                 0      syscalls:sys_exit_futex_waitv                                   
+                 0      syscalls:sys_exit_futimesat                                   
+                 0      syscalls:sys_exit_get_mempolicy                                   
+                 0      syscalls:sys_exit_get_robust_list                                   
+                 0      syscalls:sys_exit_getcpu                                    
+                 1      syscalls:sys_exit_getcwd                                    
+                 4      syscalls:sys_exit_getdents                                   
+                12      syscalls:sys_exit_getdents64                                   
+                23      syscalls:sys_exit_getegid                                   
+                23      syscalls:sys_exit_geteuid                                   
+                23      syscalls:sys_exit_getgid                                    
+                 0      syscalls:sys_exit_getgroups                                   
+                 0      syscalls:sys_exit_getitimer                                   
+                 4      syscalls:sys_exit_getpeername                                   
+                 0      syscalls:sys_exit_getpgid                                   
+                 3      syscalls:sys_exit_getpgrp                                   
+                48      syscalls:sys_exit_getpid                                    
+
+      69.731632478 seconds time elapsed
+

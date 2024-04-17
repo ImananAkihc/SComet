@@ -1,0 +1,88 @@
+# started on Wed Jan 31 04:36:58 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      rpm:rpm_suspend                                             
+                 0      rpm:rpm_usage                                               
+                 0      rseq:rseq_ip_fixup                                          
+                 0      rseq:rseq_update                                            
+                 0      rtc:rtc_alarm_irq_enable                                    
+                 0      rtc:rtc_irq_set_freq                                        
+                 0      rtc:rtc_irq_set_state                                       
+                 0      rtc:rtc_read_alarm                                          
+                 0      rtc:rtc_read_offset                                         
+                 0      rtc:rtc_read_time                                           
+                 0      rtc:rtc_set_alarm                                           
+                 0      rtc:rtc_set_offset                                          
+                 0      rtc:rtc_set_time                                            
+                 0      rtc:rtc_timer_dequeue                                       
+                 0      rtc:rtc_timer_enqueue                                       
+                 0      rtc:rtc_timer_fired                                         
+                 0      sched:sched_kthread_stop                                    
+                 0      sched:sched_kthread_stop_ret                                   
+                 0      sched:sched_kthread_work_execute_end                                   
+                 0      sched:sched_kthread_work_execute_start                                   
+                 0      sched:sched_kthread_work_queue_work                                   
+               285      sched:sched_migrate_task                                    
+                 0      sched:sched_move_numa                                       
+                 0      sched:sched_pi_setprio                                      
+                11      sched:sched_process_exec                                    
+               124      sched:sched_process_exit                                    
+               105      sched:sched_process_fork                                    
+               108      sched:sched_process_free                                    
+                 0      sched:sched_process_hang                                    
+                51      sched:sched_process_wait                                    
+                 0      sched:sched_stat_blocked                                    
+                 0      sched:sched_stat_iowait                                     
+    70,070,947,561      sched:sched_stat_runtime                                    
+                 0      sched:sched_stat_sleep                                      
+                 0      sched:sched_stat_wait                                       
+                 0      sched:sched_stick_numa                                      
+                 0      sched:sched_swap_numa                                       
+            13,284      sched:sched_switch                                          
+                 0      sched:sched_wait_task                                       
+            37,016      sched:sched_wake_idle_without_ipi                                   
+             6,604      sched:sched_wakeup                                          
+               106      sched:sched_wakeup_new                                      
+             6,604      sched:sched_waking                                          
+                82      scsi:scsi_dispatch_cmd_done                                   
+                 0      scsi:scsi_dispatch_cmd_error                                   
+                82      scsi:scsi_dispatch_cmd_start                                   
+                 0      scsi:scsi_dispatch_cmd_timeout                                   
+                 0      scsi:scsi_eh_wakeup                                         
+                 0      sd:scsi_prepare_zone_append                                   
+                 0      sd:scsi_zone_wp_update                                      
+                68      signal:signal_deliver                                       
+                88      signal:signal_generate                                      
+               442      skb:consume_skb                                             
+                27      skb:kfree_skb                                               
+               225      skb:skb_copy_datagram_iovec                                   
+                 0      smbus:smbus_read                                            
+                 0      smbus:smbus_reply                                           
+                 0      smbus:smbus_result                                          
+                 0      smbus:smbus_write                                           
+                 0      sock:inet_sk_error_report                                   
+                 0      sock:inet_sock_set_state                                    
+               207      sock:sk_data_ready                                          
+                 0      sock:sock_exceed_buf_limit                                   
+                 0      sock:sock_rcvqueue_full                                     
+               329      sock:sock_recv_length                                       
+               153      sock:sock_send_length                                       
+                 0      spi:spi_controller_busy                                     
+                 0      spi:spi_controller_idle                                     
+                 0      spi:spi_message_done                                        
+                 0      spi:spi_message_start                                       
+                 0      spi:spi_message_submit                                      
+                 0      spi:spi_set_cs                                              
+                 0      spi:spi_setup                                               
+                 0      spi:spi_transfer_start                                      
+                 0      spi:spi_transfer_stop                                       
+                 0      sunrpc:cache_entry_expired                                   
+                 0      sunrpc:cache_entry_make_negative                                   
+                 0      sunrpc:cache_entry_no_listener                                   
+                 0      sunrpc:cache_entry_upcall                                   
+                 0      sunrpc:cache_entry_update                                   
+
+      69.597224573 seconds time elapsed
+

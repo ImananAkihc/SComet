@@ -1,0 +1,88 @@
+# started on Wed Jan 31 23:26:46 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      xfs:xfs_reflink_end_cow_error                                   
+                 0      xfs:xfs_reflink_remap_blocks                                   
+                 0      xfs:xfs_reflink_remap_blocks_error                                   
+                 0      xfs:xfs_reflink_remap_extent_dest                                   
+                 0      xfs:xfs_reflink_remap_extent_error                                   
+                 0      xfs:xfs_reflink_remap_extent_src                                   
+                 0      xfs:xfs_reflink_remap_range                                   
+                 0      xfs:xfs_reflink_remap_range_error                                   
+                 0      xfs:xfs_reflink_set_inode_flag                                   
+                 0      xfs:xfs_reflink_set_inode_flag_error                                   
+                 0      xfs:xfs_reflink_trim_around_shared                                   
+                 0      xfs:xfs_reflink_unset_inode_flag                                   
+                 0      xfs:xfs_reflink_unshare                                     
+                 0      xfs:xfs_reflink_unshare_error                                   
+                 0      xfs:xfs_reflink_update_inode_size                                   
+                 0      xfs:xfs_reflink_update_inode_size_error                                   
+                 1      xfs:xfs_remove                                              
+                 5      xfs:xfs_rename                                              
+                 0      xfs:xfs_reset_dqcounts                                      
+                 0      xfs:xfs_rmap_convert                                        
+                 0      xfs:xfs_rmap_convert_done                                   
+                 0      xfs:xfs_rmap_convert_error                                   
+                 0      xfs:xfs_rmap_convert_state                                   
+                 0      xfs:xfs_rmap_defer                                          
+                 0      xfs:xfs_rmap_deferred                                       
+                 0      xfs:xfs_rmap_delete                                         
+                 0      xfs:xfs_rmap_delete_error                                   
+                 0      xfs:xfs_rmap_find_left_neighbor_candidate                                   
+                 0      xfs:xfs_rmap_find_left_neighbor_query                                   
+                 0      xfs:xfs_rmap_find_left_neighbor_result                                   
+                 0      xfs:xfs_rmap_find_right_neighbor_result                                   
+                 0      xfs:xfs_rmap_insert                                         
+                 0      xfs:xfs_rmap_insert_error                                   
+                 0      xfs:xfs_rmap_lookup_le_range                                   
+                 0      xfs:xfs_rmap_lookup_le_range_candidate                                   
+                 0      xfs:xfs_rmap_lookup_le_range_result                                   
+                 0      xfs:xfs_rmap_map                                            
+                 0      xfs:xfs_rmap_map_done                                       
+                 0      xfs:xfs_rmap_map_error                                      
+                 0      xfs:xfs_rmap_unmap                                          
+                 0      xfs:xfs_rmap_unmap_done                                     
+                 0      xfs:xfs_rmap_unmap_error                                    
+                 0      xfs:xfs_rmap_update                                         
+                 0      xfs:xfs_rmap_update_error                                   
+                 0      xfs:xfs_rmapbt_alloc_block                                   
+                 0      xfs:xfs_rmapbt_free_block                                   
+                 0      xfs:xfs_rt_mark_healthy                                     
+                 0      xfs:xfs_rt_mark_sick                                        
+                 0      xfs:xfs_rt_unfixed_corruption                                   
+                 4      xfs:xfs_setattr                                             
+                 2      xfs:xfs_setfilesize                                         
+                 0      xfs:xfs_swap_extent_after                                   
+                 0      xfs:xfs_swap_extent_before                                   
+                 0      xfs:xfs_swap_extent_rmap_error                                   
+                 0      xfs:xfs_swap_extent_rmap_remap                                   
+                 0      xfs:xfs_swap_extent_rmap_remap_piece                                   
+                 0      xfs:xfs_symlink                                             
+               252      xfs:xfs_trans_add_item                                      
+                76      xfs:xfs_trans_alloc                                         
+                 0      xfs:xfs_trans_apply_dquot_deltas                                   
+                 0      xfs:xfs_trans_apply_dquot_deltas_after                                   
+                 0      xfs:xfs_trans_apply_dquot_deltas_before                                   
+                 0      xfs:xfs_trans_bhold                                         
+                 0      xfs:xfs_trans_bhold_release                                   
+                 0      xfs:xfs_trans_binval                                        
+                 0      xfs:xfs_trans_bjoin                                         
+               117      xfs:xfs_trans_brelse                                        
+                 9      xfs:xfs_trans_cancel                                        
+                80      xfs:xfs_trans_commit                                        
+                80      xfs:xfs_trans_commit_items                                   
+                13      xfs:xfs_trans_dup                                           
+                89      xfs:xfs_trans_free                                          
+                 9      xfs:xfs_trans_free_items                                    
+                 0      xfs:xfs_trans_get_buf                                       
+                 0      xfs:xfs_trans_get_buf_recur                                   
+                 0      xfs:xfs_trans_getsb                                         
+                 0      xfs:xfs_trans_getsb_recur                                   
+               162      xfs:xfs_trans_log_buf                                       
+                 0      xfs:xfs_trans_mod_dquot                                     
+                 0      xfs:xfs_trans_mod_dquot_after                                   
+
+      69.637471881 seconds time elapsed
+

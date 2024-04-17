@@ -1,0 +1,88 @@
+# started on Sat Jan 20 19:49:26 2024
+
+
+ Performance counter stats for 'system wide':
+
+                 0      io_uring:io_uring_queue_async_work                                   
+                 0      io_uring:io_uring_register                                   
+                 0      io_uring:io_uring_req_failed                                   
+                 0      io_uring:io_uring_short_write                                   
+                 0      io_uring:io_uring_submit_req                                   
+                 0      io_uring:io_uring_task_add                                   
+                 0      io_uring:io_uring_task_work_run                                   
+                 0      iomap:iomap_dio_complete                                    
+                 0      iomap:iomap_dio_invalidate_fail                                   
+                 0      iomap:iomap_dio_rw_begin                                    
+                 0      iomap:iomap_dio_rw_queued                                   
+                 0      iomap:iomap_invalidate_folio                                   
+                49      iomap:iomap_iter                                            
+                29      iomap:iomap_iter_dstmap                                     
+                 0      iomap:iomap_iter_srcmap                                     
+                 0      iomap:iomap_readahead                                       
+                 0      iomap:iomap_readpage                                        
+                 0      iomap:iomap_release_folio                                   
+           439,470      iomap:iomap_writepage                                       
+           439,470      iomap:iomap_writepage_map                                   
+                 0      iommu:add_device_to_group                                   
+                 0      iommu:attach_device_to_domain                                   
+                 0      iommu:io_page_fault                                         
+                 0      iommu:map                                                   
+                 0      iommu:remove_device_from_group                                   
+                 0      iommu:unmap                                                 
+                 0      ipi:ipi_entry                                               
+                 0      ipi:ipi_exit                                                
+                 0      ipi:ipi_raise                                               
+             3,367      ipi:ipi_send_cpu                                            
+             7,866      irq:irq_handler_entry                                       
+             7,866      irq:irq_handler_exit                                        
+            12,995      irq:softirq_entry                                           
+            12,995      irq:softirq_exit                                            
+            13,139      irq:softirq_raise                                           
+                 0      irq:tasklet_entry                                           
+                 0      irq:tasklet_exit                                            
+                 0      irq_matrix:irq_matrix_alloc                                   
+                 0      irq_matrix:irq_matrix_alloc_managed                                   
+                 0      irq_matrix:irq_matrix_alloc_reserved                                   
+                 0      irq_matrix:irq_matrix_assign                                   
+                 0      irq_matrix:irq_matrix_assign_system                                   
+                 0      irq_matrix:irq_matrix_free                                   
+                 0      irq_matrix:irq_matrix_offline                                   
+                 0      irq_matrix:irq_matrix_online                                   
+                 0      irq_matrix:irq_matrix_remove_managed                                   
+                 0      irq_matrix:irq_matrix_remove_reserved                                   
+                 0      irq_matrix:irq_matrix_reserve                                   
+                 0      irq_matrix:irq_matrix_reserve_managed                                   
+             1,180      irq_vectors:call_function_entry                                   
+             1,180      irq_vectors:call_function_exit                                   
+               361      irq_vectors:call_function_single_entry                                   
+               361      irq_vectors:call_function_single_exit                                   
+                 0      irq_vectors:deferred_error_apic_entry                                   
+                 0      irq_vectors:deferred_error_apic_exit                                   
+                 0      irq_vectors:error_apic_entry                                   
+                 0      irq_vectors:error_apic_exit                                   
+                 0      irq_vectors:irq_work_entry                                   
+                 0      irq_vectors:irq_work_exit                                   
+           348,303      irq_vectors:local_timer_entry                                   
+           348,299      irq_vectors:local_timer_exit                                   
+               549      irq_vectors:reschedule_entry                                   
+               549      irq_vectors:reschedule_exit                                   
+                 0      irq_vectors:spurious_apic_entry                                   
+                 0      irq_vectors:spurious_apic_exit                                   
+                 0      irq_vectors:thermal_apic_entry                                   
+                 0      irq_vectors:thermal_apic_exit                                   
+                 0      irq_vectors:threshold_apic_entry                                   
+                 0      irq_vectors:threshold_apic_exit                                   
+                 0      irq_vectors:vector_activate                                   
+                 0      irq_vectors:vector_alloc                                    
+                 0      irq_vectors:vector_alloc_managed                                   
+                 0      irq_vectors:vector_clear                                    
+                 0      irq_vectors:vector_config                                   
+                 0      irq_vectors:vector_deactivate                                   
+                 0      irq_vectors:vector_free_moved                                   
+                 0      irq_vectors:vector_reserve                                   
+                 0      irq_vectors:vector_reserve_managed                                   
+                 0      irq_vectors:vector_setup                                    
+                 0      irq_vectors:vector_teardown                                   
+
+      41.893583711 seconds time elapsed
+
